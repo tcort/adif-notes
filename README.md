@@ -6,6 +6,7 @@ These are @tcort's notes on various ADIF implementations.
 |------|---------|----------|----------|--------------|-------------------|----------------|-----------------|--------------|-------------------|----------------|
 | **SKCCLogger** | `03.01.03` | [http://groups.io/g/SKCCLogger/](http://groups.io/g/SKCCLogger/) | Unknown | Y | Y | N | Unknown | Y | Y | N |
 | **tcadif** | `2.2.1` | [https://github.com/tcort/tcadif](https://github.com/tcort/tcadif) | JavaScript | Y | N | N | Characters | Y | N | N |
+| **qle** | `2.5.0` | [https://www.va2nw.ca/qle.html](https://www.va2nw.ca/qle.html) | C | N/A | N/A | N/A | Bytes | Y | N | N |
 
 - Want an application tested? Create an issue!
 - Want to report on or update the information about an application? Create an issue and/or pull request!
