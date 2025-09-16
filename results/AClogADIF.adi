@@ -1,0 +1,71 @@
+ADIF Export from N3FJP's Amateur Contact Log 7.0.11
+Written by G. Scott Davis
+www.n3fjp.com
+Log exported on: 9/16/2025 5:47:00 PM
+<LOG_PGM:27>N3FJP's Amateur Contact Log
+<LOG_VER:6>7.0.11
+<PROGRAMID:27>N3FJP's Amateur Contact Log
+<PROGRAMVERSION:6>7.0.11
+<EOH>
+
+<Call:5>AC1PH
+<QSO_Date:8>20250916
+<Time_On:6>214300
+<Time_Off:6>214400
+<Band:3>20M
+<Comment:10>I ??QRP ??
+<N3FJP_COMPUTERNAME:14>THOMASCORT2AF5
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<Cnty:13>VT,Washington
+<CQz:2>05
+<Freq:6>14.060
+<My_Gridsquare:6>FN25ck
+<MY_State:2>QC
+<ITUz:2>08
+<Mode:2>CW
+<N3FJP_ModeContest:2>CW
+<Name:3>Tom
+<TX_PWR:1>5
+<Pfx:3>AC1
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:3>599
+<RST_Rcvd:3>599
+<Station_Callsign:5>VA2NW
+<N3FJP_SPC:2>QC
+<N3FJP_SPCNum:2>VT
+<State:2>VT
+<N3FJP_StationID:14>THOMASCORT2AF5
+<eor>
+
+<Call:6>VA2EPR
+<QSO_Date:8>20250916
+<Time_On:6>214600
+<Time_Off:6>214600
+<Band:3>20M
+<Comment:4>Café
+<N3FJP_COMPUTERNAME:14>THOMASCORT2AF5
+<Cont:2>NA
+<Country:6>Canada
+<DXCC:1>1
+<CQz:2>05
+<Freq:6>14.060
+<My_Gridsquare:6>FN25ck
+<MY_State:2>QC
+<ITUz:2>04
+<Mode:2>CW
+<N3FJP_ModeContest:2>CW
+<TX_PWR:1>5
+<Pfx:3>VA2
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:3>599
+<RST_Rcvd:3>599
+<Station_Callsign:5>VA2NW
+<N3FJP_SPC:2>QC
+<N3FJP_SPCNum:6>Canada
+<N3FJP_StationID:14>THOMASCORT2AF5
+<eor>
+
