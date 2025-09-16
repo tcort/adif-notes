@@ -1,0 +1,30 @@
+ADIF Log Created by SKCCLogger
+Version: v03.01.03 macOS
+Compiler: 2024r1.1
+Build: 2024-04-24 at 10:43:02 ET
+
+Callsign: 
+SKCC Nr.: 
+Log Created: 2025-09-16 20:52:02Z
+Record Count: 1
+Log Filename: /Users/tcort/SKCCLogger.adi
+
+<EOH>
+
+<BAND:3>20M
+<CALL:5>VA2NW
+<COMMENT:4>café
+<COUNTRY:6>Canada
+<DXCC:1>1
+<FREQ:9>14.060000
+<MODE:2>CW
+<NAME:3>Tom
+<QSO_DATE:8>20250916
+<QTH:8>Gatineau
+<RST_RCVD:3>599
+<RST_SENT:3>599
+<SKCC:5>4889T
+<STATE:2>QC
+<TIME_ON:6>205111
+<EOR>
+
