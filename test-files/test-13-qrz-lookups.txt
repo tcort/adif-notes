@@ -1,0 +1,8 @@
+[This text file is encoded as UTF-8]
+
+Create a new QSO, and enter "DO6JJ" as the callsign. Name should be "Jörg Jungmann".
+
+Create a new QSO, and enter "EA7GXD" as the callsign. QTH should be "Málaga".
+
+Create a new QSO, and enter "ZP5DA" as the callsign. QTH should be "Asunción".
+

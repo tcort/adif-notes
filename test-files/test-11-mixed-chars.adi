@@ -1,0 +1,50 @@
+Test 4 for Character Encoding support. QSOs with mixed encodings, and character counts.
+
+This test includes one QSO with:
+- ISO-8859-1 characters and byte counts
+- UTF-8 characters and character counts
+- UTF-8 characters and byte counts
+- Mixed UTF-8 and ISO-8859-1 on different fields and character counts
+
+    <PROGRAMID:11>Handcrafted
+    <eoh>
+<band:3>40m
+<call:5>K1ISO
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Ju�n Mu�oz
+<qso_date:8>20250901
+<qth:8>El Ca��n
+<time_on:4>1001
+<notes:7>Test 11
+<eor>
+<band:3>40m
+<call:5>K1UTF
+<freq:7>7.07582
+<mode:3>SSB
+<name:12>Juán Muñoz
+<qso_date:8>20250901
+<qth:10>El Cañón
+<time_on:4>1005
+<notes:7>Test 11
+<eor>
+<band:3>40m
+<call:5>K1UTF
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Juán Muñoz
+<qso_date:8>20250901
+<qth:8>El Cañón
+<time_on:4>1100
+<notes:7>Test 11
+<eor>
+<band:3>40m
+<call:5>K1MIX
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Juán Muñoz
+<qso_date:8>20250901
+<qth:8>El Ca��n
+<time_on:4>1130
+<notes:7>Test 11
+<eor>

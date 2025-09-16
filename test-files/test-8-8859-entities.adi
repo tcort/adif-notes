@@ -1,0 +1,17 @@
+Test 8 for Character Encoding support. QSO with ISO-8859-1 characters.
+
+The name and QTH fields use basic latin alphabet extended characters,
+some encoded as ISO-8859-1, other transcoded as HTML entities.
+
+    <PROGRAMID:11>Handcrafted
+    <eoh>
+<band:3>40m
+<call:5>K1ISO
+<freq:7>7.07582
+<mode:3>SSB
+<name:17>Juán Mu&ntilde;oz
+<qso_date:8>20250901
+<qth:13>El Cañ&#243;n
+<time_on:4>1001
+<notes:6>Test 8
+<eor>

@@ -1,0 +1,15 @@
+Test 5 for Character Encoding support: QSO with UTF characters, character counts and "tight" fields.
+
+The name and QTH fields use basic latin alphabet extended characters, encoded as UTF-8.
+Counts are in characters.
+
+In this case, the fields with UTF characters are quickly followed by required fields.
+
+Apps that open this as 8-bit encoding will read less data than expected
+and miss the last two letters of the name and QTH fields.
+
+    <PROGRAMID:11>Handcrafted
+    <eoh>
+<band:3>40m
+<name:10>Juán Muñoz <call:5>K1UTF <mode:3>SSB <qso_date:8>20250901 <qth:8>El Cañón <freq:7>7.07582 <time_on:4>1001 <notes:6>Test 5
+<eor>

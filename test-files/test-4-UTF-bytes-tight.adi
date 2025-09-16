@@ -1,0 +1,17 @@
+Test 4 for Character Encoding support: QSO with UTF characters, byte counts and "tight" fields.
+
+The name and QTH fields use basic latin alphabet extended characters, encoded as UTF-8.
+Counts are in bytes.
+
+In this case, the fields with UTF characters are quickly followed by required fields.
+
+If the app opens this as UTF and counts in characters, it will read more data than expected.
+
+Since there is only one extra byte (a space) between fields, miscounting the size
+means skipping the next field and missing required data like call and mode.
+
+    <PROGRAMID:11>Handcrafted
+    <eoh>
+<band:3>40m
+<name:10>Juán Muñoz <call:5>K1UTF <qso_date:8>20250901 <qth:8>El Cañón <mode:3>SSB <freq:7>7.07582 <time_on:4>1001 <notes:6>Test 4
+<eor>
