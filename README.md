@@ -5,8 +5,8 @@ Many of the recent discussions in the [adifdev](https://groups.io/g/adifdev/) gr
 ## Character Set Handling
 
 | Name | Version | Homepage | Language | Import 7-Bit | Import ISO-8859-1 | Import Unicode | Counting Method | Export 7-Bit | Export ISO-8859-1 | Export Unicode | Non-representable Data |
-|------|---------|----------|----------|--------------|-------------------|----------------|-----------------|--------------|-------------------|----------------|----------------------|
-| **ACLog** | `7.0.11` | [https://www.n3fjp.com/aclog.html](https://www.n3fjp.com/aclog.html) | Unknown | Y | Y | Y | Unknown | Y | N | N | non-7bit ASCII and Unicode characters export as `?`. |
+|------|---------|----------|----------|--------------|-------------------|----------------|-----------------|--------------|-------------------|----------------|------------------------|
+| **ACLog** | `7.0.11` | [https://www.n3fjp.com/aclog.html](https://www.n3fjp.com/aclog.html) | Unknown | Y | Y | Y | Characters | Y | N | N | non-7bit ASCII and Unicode characters export as `?`. Imported heart emoji properly in `<NAME:1>❤️` so assume it is counting characters rather than bytes. |
 | **MacLoggerDX** | `6.57` | [https://www.dogparksoftware.com/MacLoggerDX.html](https://www.dogparksoftware.com/MacLoggerDX.html) | Unknown | Y | Y | N | Unknown | Y | N | N | Export replaces Unicode with `?` (e.g. `❤️` becomes `?`) and strips accents on export (e.g. `é` becomes `e`). Import rejects UTF8 in String fields. |
 | **qle** | `2.5.0` | [https://www.va2nw.ca/qle.html](https://www.va2nw.ca/qle.html) | C | N/A | N/A | N/A | Bytes | Y | N | N | Omits fields containing non-7bit ASCII data from export. |
 | **SKCCLogger** | `03.01.03` | [http://groups.io/g/SKCCLogger/](http://groups.io/g/SKCCLogger/) | Xojo | Y | Y | N | Unknown | Y | Y | N | Input widgets don't accept UTF8. |
