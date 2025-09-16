@@ -1,0 +1,13 @@
+ADIF Export from RumLogNG by DL2RUM
+For further info visit: https://www.dl2rum.de
+
+<ADIF_VER:5>3.1.5
+<CREATED_TIMESTAMP:15>20250916 222304
+<PROGRAMID:8>RUMlogNG
+<PROGRAMVERSION:6>5.19.5
+<EOH>
+
+
+<call:5>AC1PH <qso_date:8>20250916 <time_on:6>222221 <qso_date_off:8>20250916 <time_off:6>222221 <band:3>20m <freq:9>14.060000 <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 <app_rumlog_qsl:1>W <qsl_rcvd:1>N <qsl_sent:1>R <dxcc:3>291 <cqz:1>5 <ituz:1>8 <cont:2>NA <app_rumlog_power:9>Mid Power <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <pfx:3>AC1 <clublog_qso_upload_status:1>M <app_rumlog_colorcode:1>0 <eor>
+<call:5>AC1PH <qso_date:8>20250916 <time_on:6>222236 <qso_date_off:8>20250916 <time_off:6>222236 <band:3>20m <freq:9>14.060000 <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 <app_rumlog_qsl:1>W <qsl_rcvd:1>N <qsl_sent:1>R <dxcc:3>291 <cqz:1>5 <ituz:1>8 <cont:2>NA <comment:2>❤️ <app_rumlog_power:9>Mid Power <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <pfx:3>AC1 <clublog_qso_upload_status:1>M <app_rumlog_colorcode:1>0 <eor>
+<call:6>VA2EPR <qso_date:8>20250916 <time_on:6>222250 <qso_date_off:8>20250916 <time_off:6>222250 <band:3>20m <freq:9>14.060000 <mode:2>CW <rst_sent:3>599 <rst_rcvd:3>599 <app_rumlog_qsl:1>W <qsl_rcvd:1>N <qsl_sent:1>R <dxcc:1>1 <cqz:1>5 <ituz:1>4 <cont:2>NA <name:9>Sébastien <app_rumlog_power:9>Mid Power <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <pfx:3>VA2 <clublog_qso_upload_status:1>M <app_rumlog_colorcode:1>0 <eor>
