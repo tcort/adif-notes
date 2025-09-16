@@ -3,7 +3,7 @@
 These are @tcort's notes on various ADIF implementations.
 
 | Name | Version | Homepage | Language | Import 7-Bit | Import ISO-8859-1 | Import Unicode | Counting Method | Export 7-Bit | Export ISO-8859-1 | Export Unicode |
-|------|---------|----------|----------|--------------|-------------------|----------------|--------------|-------------------|----------------|
+|------|---------|----------|----------|--------------|-------------------|----------------|-----------------|--------------|-------------------|----------------|
 | **tcadif** | `2.2.1` | [https://github.com/tcort/tcadif](https://github.com/tcort/tcadif) | JavaScript | Y | N | N | Characters | Y | N | N |
 
 - Want an application tested? Create an issue!
