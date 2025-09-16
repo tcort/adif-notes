@@ -1,0 +1,40 @@
+# Converted from Quick Log Entry format 1.3.0 to ADIF format 3.1.6 by qle 2.5.0
+<adif_version:5:S>3.1.6
+<created_timestamp:15:S>20250916 221230
+<app_qle_input_file:51:S>/Users/tcort/repos/adif-notes/test-files/sample.qle
+<app_qle_input_last_modified:15:S>20250916 221211
+<programid:3:S>qle
+<programversion:5:S>2.5.0
+<eoh>
+
+<mode:2:E>CW
+<rst_sent:3:S>599
+<rst_rcvd:3:S>599
+<band:3:E>15M
+<time_on:4:T>2009
+<qso_date:8:D>20250314
+<freq:8:N>21.03225
+<station_callsign:5:S>VA2NW
+
+
+<name:3:S>Bob
+<state:2:E>FL
+<tx_pwr:2:N>32
+<call:6:S>VA2EPR
+<eor>
+
+<mode:2:E>CW
+<rst_sent:3:S>599
+<rst_rcvd:3:S>599
+<band:3:E>20M
+<time_on:4:T>2012
+<qso_date:8:D>20250314
+<freq:10:N>14.0323685
+<station_callsign:5:S>VA2NW
+
+
+<state:2:E>MD
+<tx_pwr:2:N>32
+<call:5:S>AC1PH
+<eor>
+
