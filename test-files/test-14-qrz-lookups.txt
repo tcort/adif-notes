@@ -1,8 +1,13 @@
 [This text file is encoded as UTF-8]
 
 Create a new QSO, and enter "DO6JJ" as the callsign. Name should be "Jörg Jungmann".
+This shows correctly in the QRZ.com profile page.
 
 Create a new QSO, and enter "EA7GXD" as the callsign. QTH should be "Málaga".
+This shows with mojibake in the QRZ.com profile page, as "MÃ¡laga"
 
 Create a new QSO, and enter "ZP5DA" as the callsign. QTH should be "Asunción".
+This shows correctly in the QRZ.com profile page.
+
+QRZ.com API responses are XML documents with UTF-8 encoding.
 

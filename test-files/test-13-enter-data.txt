@@ -7,7 +7,3 @@ On a Mac, you can enter á as `⌥+e` and then `a`, and ñ as `⌥+n` and then `
 I'm not sure what's the best way to enter those on Windows or Linux,
 but you can also try to copy and paste from this file.
 
-QRZ Examples:
-DO6JJ name is Jörg Jungmann, in ISO-8859-1
-ZP5DA QTH is Asunción, in ISO-8859-1
-EA7GXD QTH is Málaga, in UTF-8 (displays as MÃ¡laga)

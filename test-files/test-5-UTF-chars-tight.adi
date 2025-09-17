@@ -1,6 +1,8 @@
 Test 5 for Character Encoding support: QSO with UTF characters, character counts and "tight" fields.
 
-The name and QTH fields use basic latin alphabet extended characters, encoded as UTF-8.
+The name uses basic latin alphabet extended characters, encoded as UTF-8.
+The QTH uses Unicode characters, which in turn use 3 codepoints each but
+are rendered as 5 separate emoji characters: 1️⃣2️⃣3️⃣4️⃣5️⃣
 Counts are in characters.
 
 In this case, the fields with UTF characters are quickly followed by required fields.
@@ -11,5 +13,5 @@ and miss the last two letters of the name and QTH fields.
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<name:10>Juán Muñoz <call:5>K1UTF <mode:3>SSB <qso_date:8>20250901 <qth:8>El Cañón <freq:7>7.07582 <time_on:4>1001 <notes:6>Test 5
+<name:10>Juán Muñoz<call:5>K5UTF<mode:3>FT8<qso_date:8>20250901<qth:15>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:7>7.060<time_on:4>0500<notes:6>Test 5<comment:6>Test 5
 <eor>

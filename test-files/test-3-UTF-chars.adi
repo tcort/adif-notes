@@ -9,12 +9,13 @@ and miss the last two letters of the name and QTH fields.
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<call:5>K1UTF
+<call:5>K3UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Juán Muñoz
 <qso_date:8>20250901
 <qth:8>El Cañón
-<time_on:4>1001
+<time_on:4>0300
 <notes:6>Test 3
+<comment:6>Test 3
 <eor>
