@@ -9,12 +9,13 @@ But since there is a 2-byte line break before the next field, it might not be a 
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<call:5>K1UTF
+<call:5>K2UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:12>Juán Muñoz
 <qso_date:8>20250901
 <qth:10>El Cañón
-<time_on:4>1001
+<time_on:4>0200
 <notes:6>Test 2
+<comment:6>Test 2
 <eor>

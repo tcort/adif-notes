@@ -8,11 +8,12 @@ The name ends in a period, to verify that the entire field is read correctly.
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<call:5>K1KOR
+<call:5>K7KOR
 <freq:7>7.07582
 <mode:3>SSB
 <name:24>Korean example: 이건 예시예요.
 <qso_date:8>20250901
-<time_on:4>1001
+<time_on:4>0700
 <notes:6>Test 7
+<comment:6>Test 7
 <eor>

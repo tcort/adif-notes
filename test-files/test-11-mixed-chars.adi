@@ -9,42 +9,46 @@ This test includes one QSO with:
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<call:5>K1ISO
+<call:5>N1ISO
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Ju�n Mu�oz
 <qso_date:8>20250901
 <qth:8>El Ca��n
-<time_on:4>1001
+<time_on:4>1100
 <notes:7>Test 11
+<comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>K1UTF
+<call:5>N1UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:12>Juán Muñoz
 <qso_date:8>20250901
 <qth:10>El Cañón
-<time_on:4>1005
+<time_on:4>1115
 <notes:7>Test 11
+<comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>K1UTF
+<call:5>N1UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Juán Muñoz
 <qso_date:8>20250901
 <qth:8>El Cañón
-<time_on:4>1100
+<time_on:4>1130
 <notes:7>Test 11
+<comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>K1MIX
+<call:5>N1MIX
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Juán Muñoz
 <qso_date:8>20250901
 <qth:8>El Ca��n
-<time_on:4>1130
+<time_on:4>1145
 <notes:7>Test 11
+<comment:7>Test 11
 <eor>
