@@ -31,21 +31,21 @@ The goal of this project is to survey existing ADIF implementations to answer th
 ## Methodology -- how to fill in the table above
 
 - Import
- - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be imported
- - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be imported (e.g. `é`)
- - Unicode - Strings with multibyte unicode characters can be imported (e.g. `❤️`)
+  - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be imported
+  - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be imported (e.g. `é`)
+  - Unicode - Strings with multibyte unicode characters can be imported (e.g. `❤️`)
 - Counting Method - how length is determined. Inferred by examining the exported length for a single multibyte unicode character and/or inferred by examining an imported string. Can also be determined by source code inspection.
- - Bytes - example: seeing the 2 for a single unicode character in the output. `<NAME:2>❤️` 
- - Characters - example: successfully importing a multibyte unicode character when the length specifier is 1. `<NAME:1>❤️`
- - Unknown - example: it cannot be determined which method is used (e.g. it only imports/exports single byte characters and source code is unavailable).
+  - Bytes - example: seeing the 2 for a single unicode character in the output. `<NAME:2>❤️` 
+  - Characters - example: successfully importing a multibyte unicode character when the length specifier is 1. `<NAME:1>❤️`
+  - Unknown - example: it cannot be determined which method is used (e.g. it only imports/exports single byte characters and source code is unavailable).
 - Export
- - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be exported
- - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be exported (e.g. `é`)
- - Unicode - Strings with multibyte unicode characters can be exported (e.g. `❤️`)
+  - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be exported
+  - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be exported (e.g. `é`)
+  - Unicode - Strings with multibyte unicode characters can be exported (e.g. `❤️`)
 - Comments
- - how was the length counting method determined.
- - what does a multibyte unicode character look like when exported.
- - etc.
+  - how was the length counting method determined.
+  - what does a multibyte unicode character look like when exported.
+  - etc.
 
 ## Test Files
 
