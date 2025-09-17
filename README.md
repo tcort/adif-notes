@@ -19,6 +19,25 @@ Many of the recent discussions in the [adifdev](https://groups.io/g/adifdev/) gr
 - Want to report on or update the information about an application? Create an issue and/or pull request!
 - Want additional information collected? Create an issue!
 
+## Methodology -- how to fill in the table above
+
+- Import
+ - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be imported
+ - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be imported (e.g. `é`)
+ - Unicode - Strings with multibyte unicode characters can be imported (e.g. `❤️`)
+- Counting Method - how length is determined. Inferred by examining the exported length for a single multibyte unicode character and/or inferred by examining an imported string. Can also be determined by source code inspection.
+ - Bytes - example: seeing the 2 for a single unicode character in the output. `<NAME:2>❤️` 
+ - Characters - example: successfully importing a multibyte unicode character when the length specifier is 1. `<NAME:1>❤️`
+ - Unknown - example: it cannot be determined which method is used (e.g. it only imports/exports single byte characters and source code is unavailable).
+- Export
+ - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be exported
+ - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be exported (e.g. `é`)
+ - Unicode - Strings with multibyte unicode characters can be exported (e.g. `❤️`)
+- Comments
+ - how was the length counting method determined.
+ - what does a multibyte unicode character look like when exported.
+ - etc.
+
 ## Test Files
 
 The `test-files/` directory contains sample files with 7-bit ascii strings, iso-8859-1 strings, and unicode strings. These are hand crafted. Ideally, once I find an application that exports ISO-8859-1 and/or Unicode, I'll use the real world ADIF (rather than my contrived examples).
