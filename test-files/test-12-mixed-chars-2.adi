@@ -1,0 +1,54 @@
+Test 12 for Character Encoding support. QSOs with mixed encodings, and character counts.
+
+This test is similar to Test 11, but instead of the first QSO having ISO-8859-1 characters
+it has UTF-8 characters, in order to test if the app is doing encoding detection.
+
+It includes the same QSOs, but on a different date.
+Also, the first and second QSOs are swapped but maintaint the same `time_on`.
+
+    <PROGRAMID:11>Handcrafted
+    <eoh>
+<band:3>40m
+<call:5>N2UTF
+<freq:7>7.07582
+<mode:3>SSB
+<name:12>Juán Muñoz
+<qso_date:8>20250902
+<qth:10>El Cañón
+<time_on:4>1030
+<notes:7>Test 11
+<comment:7>Test 11
+<eor>
+<band:3>40m
+<call:5>N1ISO
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Ju�n Mu�oz
+<qso_date:8>20250902
+<qth:8>El Ca��n
+<time_on:4>1000
+<notes:7>Test 11
+<comment:7>Test 11
+<eor>
+<band:3>40m
+<call:5>N3UTF
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Juán Muñoz
+<qso_date:8>20250902
+<qth:8>El Cañón
+<time_on:4>1130
+<notes:7>Test 11
+<comment:7>Test 11
+<eor>
+<band:3>40m
+<call:5>N4MIX
+<freq:7>7.07582
+<mode:3>SSB
+<name:10>Juán Muñoz
+<qso_date:8>20250902
+<qth:8>El Ca��n
+<time_on:4>1130
+<notes:7>Test 11
+<comment:7>Test 11
+<eor>

@@ -1,4 +1,4 @@
-Test 4 for Character Encoding support. QSOs with mixed encodings, and character counts.
+Test 11 for Character Encoding support. QSOs with mixed encodings, and character counts.
 
 This test includes one QSO with:
 - ISO-8859-1 characters and byte counts
@@ -15,23 +15,23 @@ This test includes one QSO with:
 <name:10>Ju�n Mu�oz
 <qso_date:8>20250901
 <qth:8>El Ca��n
-<time_on:4>1100
+<time_on:4>1000
 <notes:7>Test 11
 <comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>N1UTF
+<call:5>N2UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:12>Juán Muñoz
 <qso_date:8>20250901
 <qth:10>El Cañón
-<time_on:4>1115
+<time_on:4>1030
 <notes:7>Test 11
 <comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>N1UTF
+<call:5>N3UTF
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Juán Muñoz
@@ -42,13 +42,13 @@ This test includes one QSO with:
 <comment:7>Test 11
 <eor>
 <band:3>40m
-<call:5>N1MIX
+<call:5>N4MIX
 <freq:7>7.07582
 <mode:3>SSB
 <name:10>Juán Muñoz
 <qso_date:8>20250901
 <qth:8>El Ca��n
-<time_on:4>1145
+<time_on:4>1130
 <notes:7>Test 11
 <comment:7>Test 11
 <eor>
