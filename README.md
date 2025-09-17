@@ -2,6 +2,15 @@
 
 Many of the recent discussions in the [adifdev](https://groups.io/g/adifdev/) group around character encoding explore the impacts on existing ADIF implementations and the ability of existing implementations to adapt to support different encoding schemes. I'm attempting to collect relevant information so that we can make more informed decisions on the topic. I've set up a github repository where I will post the information that I find. It will allow others to collaborate if they want to help and/or raise issues (e.g. an additional ADIF implementation to examine).
 
+## Goal
+
+The goal of this project is to survey existing ADIF implementations to answer the following questions:
+
+ - how common is it for implementations to import/export out of spec Strings (e.g. extended ASCII, Unicode, etc)?
+ - how do existing ADIF implementations calculate the length of String data: counting bytes or counting characters?
+ - which programming languages are used to implement ADIF?
+ - how common is support for ADX?
+
 ## Character Set Handling
 
 | Name | Version | Homepage | Language | Import 7-Bit | Import ISO-8859-1 | Import Unicode | Counting Method | Export 7-Bit | Export ISO-8859-1 | Export Unicode | Comments | Supports ADX |
