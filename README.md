@@ -15,13 +15,13 @@ The goal of this project is to survey existing ADIF implementations to answer th
 
 | Name | Version | Homepage | Language | Import 7-Bit | Import ISO-8859-1 | Import Unicode | Counting Method | Export 7-Bit | Export ISO-8859-1 | Export Unicode | Comments | Supports ADX |
 |------|---------|----------|----------|--------------|-------------------|----------------|-----------------|--------------|-------------------|----------------|----------|--------------|
-| **ACLog** | `7.0.11` | [https://www.n3fjp.com/aclog.html](https://www.n3fjp.com/aclog.html) | Unknown | ✅ | ✅ | ✅ | Characters | ✅ | ❌ | ❌ | non-7bit ASCII and Unicode characters export as `?`. Imported heart emoji properly in `<NAME:1>❤️` so assume it is counting characters rather than bytes. | ❌ |
-| **HAMRS Pro** | `2.44.0` | [https://hamrs.app/](https://hamrs.app/) | Unknown | ✅ | ✅ | ✅ | Bytes | ✅ | ✅ | ✅ | Outputs `<NOTES:2>❤️` so assume it's counting bytes. | ❌ |`
-| **klog** | `2.5-RC1` | [https://github.com/ea4k/klog](https://github.com/ea4k/klog) | C++ | ✅ | ✅ | ✅ | Bytes | ✅ | ✅ | ✅ | Output includes `<NAME:2>❤️` so assume it is counting bytes. | ❌ |
+| **ACLog** | `7.0.11` | [https://www.n3fjp.com/aclog.html](https://www.n3fjp.com/aclog.html) | Unknown | ✅ | ✅ | ✅ | Unknown | ✅ | ❌ | ❌ | non-7bit ASCII and Unicode characters export as `?`. | ❌ |
+| **HAMRS Pro** | `2.44.0` | [https://hamrs.app/](https://hamrs.app/) | Unknown | ✅ | ✅ | ✅ | Characters | ✅ | ✅ | ✅ | Exports `<NOTES:2>❤️` so assume it's counting characters. | ❌ |`
+| **klog** | `2.5-RC1` | [https://github.com/ea4k/klog](https://github.com/ea4k/klog) | C++ | ✅ | ✅ | ✅ | Characters | ✅ | ✅ | ✅ | Exports `<NAME:2>❤️` so assume it is counting characters. | ❌ |
 | **MacLoggerDX** | `6.57` | [https://www.dogparksoftware.com/MacLoggerDX.html](https://www.dogparksoftware.com/MacLoggerDX.html) | Unknown | ✅ | ✅ | ❌ | Unknown | ✅ | ❌ | ❌ | Export replaces Unicode with `?` (e.g. `❤️` becomes `?`) and strips accents on export (e.g. `é` becomes `e`). Import rejects UTF8 in String fields. | ✅ |
 | **qle** | `2.5.0` | [https://www.va2nw.ca/qle.html](https://www.va2nw.ca/qle.html) | C | N/A | N/A | N/A | Bytes | ✅ | ❌ | ❌ | Omits fields containing non-7bit ASCII data from export. | ❌ |
-| **qlog** | `0.46.0` | [https://github.com/foldynl/QLog](https://github.com/foldynl/QLog) | C++ | ✅ | ✅ | ❌ | Unknown | ✅ | ❌ | ❌ | Exports `é` as `e`, `❤️` as `??`. Imports `é` properly, `❤️` imports as `â` | ✅ |
-| **RumLogNG** | `5.19.5` | [https://www.dl2rum.de/rumsoft/RUMLog.html](https://www.dl2rum.de/rumsoft/RUMLog.html) | Unknown | ✅ | ✅ | ✅ | Bytes | ✅ | ✅ | ✅ | Exports `<comment:2>❤️` so assume it's counting bytes rather than characters. | ✅ |
+| **QLog** | `0.46.0` | [https://github.com/foldynl/QLog](https://github.com/foldynl/QLog) | C++ | ✅ | ✅ | ❌ | Unknown | ✅ | ❌ | ❌ | Exports `é` as `e`, `❤️` as `??`. Imports `é` properly, `❤️` imports as `â` | ✅ |
+| **RumLogNG** | `5.19.5` | [https://www.dl2rum.de/rumsoft/RUMLog.html](https://www.dl2rum.de/rumsoft/RUMLog.html) | Unknown | ✅ | ✅ | ✅ | Characters | ✅ | ✅ | ✅ | Exports `<comment:2>❤️` so assume it's counting characters. | ✅ |
 | **SKCCLogger** | `03.01.03` | [http://groups.io/g/SKCCLogger/](http://groups.io/g/SKCCLogger/) | Xojo | ✅ | ✅ | ❌ | Unknown | ✅ | ✅ | ❌ | Input widgets don't accept UTF8. | ❌ |
 | **tcadif** | `2.2.1` | [https://github.com/tcort/tcadif](https://github.com/tcort/tcadif) | JavaScript | ✅ | ❌ | ❌ | Characters | ✅ | ❌ | ❌ | Refuses to import/export non-7bit ASCII data. | ❌ |
 
@@ -36,8 +36,8 @@ The goal of this project is to survey existing ADIF implementations to answer th
   - ISO-8859-1 - Strings with single byte Characters outside the range 32 to 126 (inclusive) can be imported (e.g. `é`)
   - Unicode - Strings with multibyte unicode characters can be imported (e.g. `❤️`)
 - Counting Method - how length is determined. Inferred by examining the exported length for a single multibyte unicode character and/or inferred by examining an imported string. Can also be determined by source code inspection.
-  - Bytes - example: seeing the 2 for a single unicode character in the output. `<NAME:2>❤️` 
-  - Characters - example: successfully importing a multibyte unicode character when the length specifier is 1. `<NAME:1>❤️`
+  - Bytes - example: seeing the 4 for the red heart emoji (U+2764 U+FE0F) in the output. `<NAME:4>❤️` 
+  - Characters - example: seeing 2 for the red heart emoji (U+2764 U+FE0F) in the output. `<NAME:2>❤️` 
   - Unknown - example: it cannot be determined which method is used (e.g. it only imports/exports single byte characters and source code is unavailable).
 - Export
   - 7-bit - Strings with Characters in the range 32 to 126 (inclusive) can be exported
