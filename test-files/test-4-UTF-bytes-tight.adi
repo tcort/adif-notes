@@ -15,5 +15,5 @@ means skipping the next field and missing required data like call and mode.
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<name:10>Juán Muñoz<call:5>K1UTF<qso_date:8>20250901<qth:8>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:7>7.07582<mode:3>SSB<time_on:4>1001<notes:6>Test 4
+<name:10>Juán Muñoz<call:5>K1UTF<qso_date:8>20250901<qth:15>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:7>7.07582<mode:3>SSB<time_on:4>1001<notes:6>Test 4
 <eor>
