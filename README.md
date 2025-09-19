@@ -55,3 +55,5 @@ The `test-files/` directory contains sample files with 7-bit ascii strings, iso-
 ## Results
 
 The `results/` directory contains ADIF output from various applications.
+
+## See Also [results/README.md](results/README.md) for extended test results.

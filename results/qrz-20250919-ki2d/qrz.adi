@@ -1,0 +1,842 @@
+QRZLogbook download for ki2d
+    Date: Fri Sep 19 13:14:42 2025
+    Bookid: 443557
+    Records: 22
+    <ADIF_VER:5>3.1.1
+    <PROGRAMID:10>QRZLogbook
+    <PROGRAMVERSION:3>2.0
+    <eoh>
+<app_qrzlog_logid:10>1322879963
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K1ISO
+<comment:6>Test 1
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 1
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0100
+<time_on:4>0100
+<eor>
+
+<app_qrzlog_logid:10>1322880176
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K2UTF
+<comment:6>Test 2
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 2
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0200
+<time_on:4>0200
+<eor>
+
+<app_qrzlog_logid:10>1322880316
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K3UTF
+<comment:6>Test 3
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 3
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0300
+<time_on:4>0300
+<eor>
+
+<app_qrzlog_logid:10>1322880346
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K4UTF
+<comment:6>Test 4
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 4
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:4>1️⃣2
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0400
+<time_on:4>0400
+<eor>
+
+<app_qrzlog_logid:10>1322880416
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K5UTF
+<comment:6>Test 5
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:4>7.06
+<freq_rx:4>7.06
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>FT8
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 5
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:15>1️⃣2️⃣3️⃣4️⃣5️⃣
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0500
+<time_on:4>0500
+<eor>
+
+<app_qrzlog_logid:10>1322880649
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K6KOR
+<cnty:17>CA,San Bernardino
+<comment:6>Test 6
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<email:14>k6kor@arrl.net
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>DM14fd
+<lat:11>N034 08.881
+<lon:11>W117 31.947
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:24>Korean example: 이건 예시예요.
+<notes:6>Test 6
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:16>Rancho Cucamonga
+<state:2>CA
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0600
+<time_on:4>0600
+<eor>
+
+<app_qrzlog_logid:10>1322880669
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K7KOR
+<cnty:9>WA,Yakima
+<comment:6>Test 7
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<email:19>dskone@wolfenet.com
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>CN96rp
+<lat:11>N046 39.200
+<lon:11>W120 32.151
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:24>Korean example: 이건 예시예요.
+<notes:6>Test 7
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:5>Selah
+<state:2>WA
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0700
+<time_on:4>0700
+<eor>
+
+<app_qrzlog_logid:10>1322880682
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K8ISO
+<comment:6>Test 8
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:17>Juán Mu&ntilde;oz
+<notes:6>Test 8
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:13>El Cañ&#243;n
+<station_callsign:9>KI2D/ADIF
+<time_off:4>0800
+<time_on:4>0800
+<eor>
+
+<app_qrzlog_logid:10>1322880730
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K9UTF
+<cnty:12>AR,Sebastian
+<comment:6>Test 9
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<email:19>mtnmann63@yahoo.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>EM25ti
+<lat:11>N035 20.946
+<lon:11>W094 20.027
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:6>Test 9
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<state:2>AR
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1001
+<time_on:4>0900
+<eor>
+
+<app_qrzlog_logid:10>1322880773
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K0UTF
+<comment:7>Test 10
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:64>Korean example: &#xC774;&#xAC83;&#xC740;&#x20;&#xC608;&#xC2DC;&#
+<notes:7>Test 10
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:13>El Cañ&#243;n
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1000
+<time_on:4>1000
+<eor>
+
+<app_qrzlog_logid:10>1322880975
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N1ISO
+<cnty:12>CT,Middlesex
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>FN31rh
+<lat:11>N041 18.160
+<lon:11>W072 33.072
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<state:2>VA
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1000
+<time_on:4>1000
+<eor>
+
+<app_qrzlog_logid:10>1322880976
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N2UTF
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1030
+<time_on:4>1030
+<eor>
+
+<app_qrzlog_logid:10>1322880977
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N3UTF
+<cnty:7>AZ,Pima
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>DM42oc
+<lat:11>N032 06.997
+<lon:11>W110 47.618
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<state:2>AZ
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1130
+<time_on:4>1130
+<eor>
+
+<app_qrzlog_logid:10>1322880978
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N4MIX
+<cnty:7>FL,Polk
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>EM56tu
+<lat:11>N036 51.385
+<lon:11>W088 21.084
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250901
+<qso_date_off:8>20250901
+<qth:8>El Cañón
+<state:2>FL
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1130
+<time_on:4>1130
+<eor>
+
+<app_qrzlog_logid:10>1322880992
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N2UTF
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250902
+<qso_date_off:8>20250902
+<qth:8>El Cañón
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1030
+<time_on:4>1030
+<eor>
+
+<app_qrzlog_logid:10>1322880993
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N1ISO
+<cnty:12>CT,Middlesex
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>FN31rh
+<lat:11>N041 18.160
+<lon:11>W072 33.072
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250902
+<qso_date_off:8>20250902
+<qth:8>El Cañón
+<state:2>VA
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1000
+<time_on:4>1000
+<eor>
+
+<app_qrzlog_logid:10>1322880994
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N3UTF
+<cnty:7>AZ,Pima
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>DM42oc
+<lat:11>N032 06.997
+<lon:11>W110 47.618
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250902
+<qso_date_off:8>20250902
+<qth:8>El Cañón
+<state:2>AZ
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1130
+<time_on:4>1130
+<eor>
+
+<app_qrzlog_logid:10>1322880995
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>N4MIX
+<cnty:7>FL,Polk
+<comment:7>Test 11
+<cont:2>NA
+<country:13>United States
+<dxcc:3>291
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>EM56tu
+<lat:11>N036 51.385
+<lon:11>W088 21.084
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:10>Juán Muñoz
+<notes:7>Test 11
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250902
+<qso_date_off:8>20250902
+<qth:8>El Cañón
+<state:2>FL
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1130
+<time_on:4>1130
+<eor>
+
+<app_qrzlog_logid:10>1322886716
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>K1TST
+<cnty:12>MA,Middlesex
+<cont:2>NA
+<country:13>United States
+<cqz:1>5
+<dxcc:3>291
+<email:14>k1tst@arrl.net
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>FN42hp
+<ituz:1>8
+<lat:11>N042 38.708
+<lon:11>W071 23.420
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:12>Juán Muñoz ✅
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:23>LOTW, DIRECT, OR BUREAU
+<qso_date:8>20250919
+<qso_date_off:8>20250919
+<qth:13>N. CHELMSFORD
+<state:2>MA
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1310
+<time_on:4>1310
+<eor>
+
+<app_qrzlog_logid:10>1322886769
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>DO6JJ
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<dxcc:3>230
+<email:14>DO6JJ@YAHOO.DE
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>JO31KL
+<ituz:2>28
+<lat:11>N051 28.798
+<lon:11>E006 52.112
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:13>J rg Jungmann
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:42>QSL 100% OK VIA BUREAU , DIRECT ODER E-QSL
+<qso_date:8>20250919
+<qso_date_off:8>20250919
+<qth:10>Oberhausen
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1311
+<time_on:4>1311
+<eor>
+
+<app_qrzlog_logid:10>1322886901
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>EA7GXD
+<cont:2>EU
+<country:5>Spain
+<dxcc:3>281
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:6>IN80dj
+<lat:11>N040 23.750
+<lon:11>W003 42.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:21>Andres Sarria Sanchez
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250919
+<qso_date_off:8>20250919
+<qth:16>MÃÂ¡laga, 29080
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1312
+<time_on:4>1312
+<eor>
+
+<app_qrzlog_logid:10>1322886937
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>ZP5DA
+<cont:2>SA
+<country:8>Paraguay
+<cqz:2>11
+<dxcc:3>132
+<email:17>zp5da@outlook.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:7>7.07582
+<freq_rx:7>7.07582
+<gridsquare:8>GG14EQ44
+<ituz:2>14
+<lat:11>S025 18.800
+<lon:11>W057 37.600
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>N
+<mode:3>SSB
+<my_city:4>Test
+<my_country:8>NON-DXCC
+<my_lat:11>S000 00.000
+<my_lon:11>W000 00.000
+<my_name:5> Test
+<name:13>ENZO DA PONTE
+<qrzcom_qso_download_date:8>20250919
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250919
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:27>BUREAU OR THE SAME AS ABOVE
+<qso_date:8>20250919
+<qso_date_off:8>20250919
+<qth:9>AsunciÃ³n
+<station_callsign:9>KI2D/ADIF
+<time_off:4>1312
+<time_on:4>1312
+<eor>
+
