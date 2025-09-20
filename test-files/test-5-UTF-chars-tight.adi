@@ -13,5 +13,5 @@ and miss the last two letters of the name and QTH fields.
     <PROGRAMID:11>Handcrafted
     <eoh>
 <band:3>40m
-<name:10>Juán Muñoz<call:5>K5UTF<mode:3>FT8<qso_date:8>20250901<qth:5>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:7>7.060<time_on:4>0500<notes:6>Test 5<comment:6>Test 5
+<name:10>Juán Muñoz<call:5>K5UTF<mode:3>FT8<qso_date:8>20250901<qth:15>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:5>7.060<time_on:4>0500<notes:6>Test 5<comment:6>Test 5
 <eor>
