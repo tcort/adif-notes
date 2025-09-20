@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADX>
+    <HEADER>
+        <!--ADIF Export from RumLogNG by DL2RUM-->
+        <!--For further info visit: https://www.dl2rum.de-->
+        <ADIF_VER>3.1.5</ADIF_VER>
+        <PROGRAMID>RUMlogNG</PROGRAMID>
+        <PROGRAMVERSION>5.19.4</PROGRAMVERSION>
+        <CREATED_TIMESTAMP>20250920 122349</CREATED_TIMESTAMP>
+        <USERDEF FIELDID="1" TYPE="S">APP_RUMLOG_USER_1</USERDEF>
+        <USERDEF FIELDID="2" TYPE="S">APP_RUMLOG_USER_2</USERDEF>
+        <USERDEF FIELDID="3" TYPE="S">APP_RUMLOG_USER_3</USERDEF>
+        <USERDEF FIELDID="4" TYPE="S">APP_RUMLOG_USER_4</USERDEF>
+        <USERDEF FIELDID="5" TYPE="S">APP_RUMLOG_POWER</USERDEF>
+        <USERDEF FIELDID="6" TYPE="N" RANGE="{0:9}">APP_RUMLOG_COLORCODE</USERDEF>
+        <USERDEF FIELDID="7" TYPE="E" ENUM="{-,W,R,S,X,G,Q,B,N}">APP_RUMLOG_QSL</USERDEF>
+    </HEADER>
+    <RECORDS>
+        <RECORD>
+            <CALL>ZP5DA</CALL>
+            <QSO_DATE>20250919</QSO_DATE>
+            <TIME_ON>133137</TIME_ON>
+            <QSO_DATE_OFF>20250919</QSO_DATE_OFF>
+            <TIME_OFF>133137</TIME_OFF>
+            <BAND>17m</BAND>
+            <FREQ>18.158000</FREQ>
+            <MODE>SSB</MODE>
+            <RST_SENT>59</RST_SENT>
+            <RST_RCVD>59</RST_RCVD>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>132</DXCC>
+            <CQZ>11</CQZ>
+            <ITUZ>14</ITUZ>
+            <CONT>SA</CONT>
+            <NAME>Enzo</NAME>
+            <QTH>Asunción</QTH>
+            <QSL_VIA>MANAGER EB7DX / LOTW. / QRZ.COM ( NO QSL BY EMAIL ) TNX</QSL_VIA>
+            <GRIDSQUARE>GG14EQ</GRIDSQUARE>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">Mid Power</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>ZP5</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>EA7GXD</CALL>
+            <QSO_DATE>20250919</QSO_DATE>
+            <TIME_ON>133057</TIME_ON>
+            <QSO_DATE_OFF>20250919</QSO_DATE_OFF>
+            <TIME_OFF>133057</TIME_OFF>
+            <BAND>17m</BAND>
+            <FREQ>18.158000</FREQ>
+            <MODE>SSB</MODE>
+            <RST_SENT>59</RST_SENT>
+            <RST_RCVD>59</RST_RCVD>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>281</DXCC>
+            <CQZ>14</CQZ>
+            <ITUZ>37</ITUZ>
+            <CONT>Eu</CONT>
+            <NAME>Andres</NAME>
+            <QTH>MÃ¡laga, 29080</QTH>
+            <GRIDSQUARE>IN80DJ</GRIDSQUARE>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">Mid Power</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>EA7</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>DO6JJ</CALL>
+            <QSO_DATE>20250919</QSO_DATE>
+            <TIME_ON>132916</TIME_ON>
+            <QSO_DATE_OFF>20250919</QSO_DATE_OFF>
+            <TIME_OFF>132916</TIME_OFF>
+            <BAND>17m</BAND>
+            <FREQ>18.158000</FREQ>
+            <MODE>SSB</MODE>
+            <RST_SENT>59</RST_SENT>
+            <RST_RCVD>59</RST_RCVD>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>230</DXCC>
+            <CQZ>14</CQZ>
+            <ITUZ>28</ITUZ>
+            <CONT>Eu</CONT>
+            <NAME>Jörg</NAME>
+            <QTH>Oberhausen</QTH>
+            <GRIDSQUARE>JO31KL</GRIDSQUARE>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">Mid Power</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>DO6</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K1TST</CALL>
+            <QSO_DATE>20250919</QSO_DATE>
+            <TIME_ON>132826</TIME_ON>
+            <QSO_DATE_OFF>20250919</QSO_DATE_OFF>
+            <TIME_OFF>132826</TIME_OFF>
+            <BAND>17m</BAND>
+            <FREQ>18.158000</FREQ>
+            <MODE>SSB</MODE>
+            <RST_SENT>59</RST_SENT>
+            <RST_RCVD>59</RST_RCVD>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz ✅</NAME>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">Mid Power</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K1</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N4MIX</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N4</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N3UTF</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±</NAME>
+            <QTH>El CaÃ±Ã</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N3</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N1ISO</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N1</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N2UTF</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>103000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>103000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±oz</NAME>
+            <QTH>El CaÃ±Ã³n</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N2</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N4MIX</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N4</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N3UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±</NAME>
+            <QTH>El CaÃ±Ã</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N3</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N2UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>103000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>103000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>JuÃ¡n MuÃ±oz</NAME>
+            <QTH>El CaÃ±Ã³n</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N2</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>N1ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 11-Test 11</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>N1</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K0UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>4</CQZ>
+            <ITUZ>7</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Korean example: &amp;#xC774;&amp;#xAC83;&amp;#xC740;&amp;#x20;&amp;#xC608;&amp;#xC2DC;&amp;#xC785;&amp;#xB2C8;&amp;#xB2E4;</NAME>
+            <QTH>El Cañ&amp;#243;n</QTH>
+            <COMMENT>Test 10-Test 10</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K0</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K0UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>4</CQZ>
+            <ITUZ>7</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Korean example: &amp;#xC774;&amp;#xAC83;&amp;#xC740;&amp;#x20;&amp;#xC608;&amp;#xC2DC;&amp;#xC785;&amp;#xB2C8;&amp;#xB2E4;</NAME>
+            <QTH>El Cañ&amp;#243;n</QTH>
+            <COMMENT>Test 10-Test 10</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K0</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K9UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>090000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>090000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>4</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Mu&amp;ntilde;oz</NAME>
+            <QTH>El Cañ&amp;#243;n</QTH>
+            <COMMENT>Test 9-Test 9</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K9</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K8ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>080000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>080000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>4</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Mu&amp;ntilde;oz</NAME>
+            <QTH>El Cañ&amp;#243;n</QTH>
+            <COMMENT>Test 8-Test 8</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K8</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K7KOR</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>070000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>070000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>3</CQZ>
+            <ITUZ>6</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Korean example: 이건 예시예요.</NAME>
+            <COMMENT>Test 7-Test 7</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K7</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K6KOR</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>060000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>060000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>3</CQZ>
+            <ITUZ>6</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Korean example: 이건 예시예요.
+&lt;qso_date:8</NAME>
+            <COMMENT>Test 6-Test 6</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K6</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K5UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>050000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>050000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.060000</FREQ>
+            <MODE>FT8</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>4</CQZ>
+            <ITUZ>7</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>1️⃣2️⃣3️⃣4️⃣5️⃣</QTH>
+            <COMMENT>Test 5-Test 5</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K5</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K4UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>040000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>040000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>1️⃣2️⃣3️</QTH>
+            <COMMENT>Test 4-Test 4</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K4</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K3UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>030000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>030000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 3-Test 3</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K3</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K2UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>020000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>020000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz
+&lt;</NAME>
+            <QTH>El Cañón
+&lt;</QTH>
+            <COMMENT>Test 2-Test 2</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K2</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+        <RECORD>
+            <CALL>K1ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>010000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>010000</TIME_OFF>
+            <BAND>40m</BAND>
+            <FREQ>7.075800</FREQ>
+            <MODE>SSB</MODE>
+            <USERDEF FIELDNAME="APP_RUMLOG_QSL">W</USERDEF>
+            <QSL_RCVD>N</QSL_RCVD>
+            <QSL_SENT>R</QSL_SENT>
+            <DXCC>291</DXCC>
+            <CQZ>5</CQZ>
+            <ITUZ>8</ITUZ>
+            <CONT>NA</CONT>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>El Cañón</QTH>
+            <COMMENT>Test 1-Test 1</COMMENT>
+            <TX_PWR>100</TX_PWR>
+            <USERDEF FIELDNAME="APP_RUMLOG_POWER">100</USERDEF>
+            <EQSL_QSL_RCVD>N</EQSL_QSL_RCVD>
+            <EQSL_QSL_SENT>N</EQSL_QSL_SENT>
+            <LOTW_QSL_RCVD>N</LOTW_QSL_RCVD>
+            <LOTW_QSL_SENT>N</LOTW_QSL_SENT>
+            <PFX>K1</PFX>
+            <CLUBLOG_QSO_UPLOAD_STATUS>M</CLUBLOG_QSO_UPLOAD_STATUS>
+            <USERDEF FIELDNAME="APP_RUMLOG_COLORCODE">0</USERDEF>
+        </RECORD>
+    </RECORDS>
+</ADX>
