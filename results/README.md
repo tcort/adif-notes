@@ -192,3 +192,40 @@ This app seems to:
 * Correctly accept Unicode input in the UI
 
 
+## [Ham Radio Deluxe Logbook](https://hamradiodeluxe.com/)
+
+**Version:** 6.8.0.372
+
+**Tested:** 2025-09-20 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 5:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 7:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly. entities decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented characters as mojibake, but entities decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 13:** ✅ Data displayed correctly. ❌ But dropped on export ⁉️
+* **Test 14:** 🟡 DO6JJ name transcoded to "Jorg". 🟡 EA7GXD QTH transcoded to "Malaga". ZP5DA QTH transcoded to "Asuncion"
+
+Exports:
+* ADIF Export: transcoded to ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. But manually entered QSO with emoji, even if displayed correctly, was exported as <name:0>
+* ADX Export: As UTF-8, does NOT use _INTL fields.
+
+Notes: Import functionality has an option for "non-compliant ADIF", but it does not seem to make any difference in these results.
+
+This app seems to:
+
+* Use ISO-8859-1 internally? Or maybe Unicode? And only converted on display?
+* Interpret all ADIF imports as ISO-8859-1.  Maybe transcode internally?
+* Transcode HTML entities 🥳 to Unicode??? but maybe only on display?
+* Count ADIF field in bytes
+* Handle fields with data beyond length
+* Not transcode UTF-8 when importing
+* Correctly accept Unicode input in the UI, but dropped on export
+* Correctly accept Unicode data on lookup, maybe transcode internally?
