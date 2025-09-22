@@ -229,3 +229,41 @@ This app seems to:
 * Not transcode UTF-8 when importing
 * Correctly accept Unicode input in the UI, but dropped on export
 * Correctly accept Unicode data on lookup, maybe transcode internally?
+
+
+### [Log4OM](https://www.log4om.com/)
+
+**Version:** 2.36.1.0
+
+**Tested:** 2025-09-21 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 12.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 11.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ✅ Data displayed correctly.
+
+Exports:
+* ADIF Export: encoded as UTF-8, includes BOM, field counts in characters, one space between fields, two CRLF between records.
+* There's an option to export "Export Standard ADIF", but this still uses UTF-8 encoding and character counts.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use Unicode internally
+* Count ADIF field in characters
+* Handle fields with data beyond length
+* Handle fields with length past data
+* Not transcode when importing or exporting
+* Not transcode HTML entities when importing
+* Correctly accept Unicode input in the UI
