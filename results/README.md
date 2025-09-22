@@ -124,7 +124,7 @@ This app seems to:
 
 **Version:** 1.0.10923
 
-**Tested:** 2025-09-19 by KI2D
+**Tested:** 2025-09-20 by KI2D
 
 * **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
 * **Test 2:** ❌ Failed to import QSO.
@@ -154,3 +154,41 @@ This app seems to:
 * Always imports as UTF-8 and always exports as transcodedISO-8859-1, with no autodetection.
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
+
+
+
+### [Hamlog.online](https://hamlog.online/)
+
+**Version:** N/A
+
+**Tested:** 2025-09-20 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data misdecoded. Greek codepage?
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accents loaded, but not upcased with rest of string
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ❌ Failed to import QSO.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data truncated, and some characters misdecoded?
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, but upcased.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, but upcased.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data misdecoded. Entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accents decoded, but entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data misdecoded. Entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 13:** ✅ Data displayed correctly. Not upcased.
+* **Test 14:** 🔲 Does not support QRZ.com lookups.
+
+
+Exports:
+* ADIF Export: Somehow cleaned into ISO-8859-1 with all UTF characters replaced with `?`, count in bytes, no spaces between fields, CRLF between records.
+
+This app seems to:
+
+* Use Unicode internally.
+* Count ADIF fields in bytes, not characters.
+* Transcode ISO-8859-1 using some different codepage. Accented `á` shows up as `б` (delta) and `ñ` shows up as `с`.
+* Not transcode HTML entities when importing
+* Remove UTF byte sequences on export, but preserve non-UTF byte sequences
+* Correctly accept Unicode input in the UI
+
+
