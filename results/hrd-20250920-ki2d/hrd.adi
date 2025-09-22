@@ -1,0 +1,163 @@
+#++
+#
+#   HRD Logbook version 6.8.0.372, Copyright (c) 2003-2023 by HRD Software, LLC
+#   https://www.HamRadioDeluxe.com/
+#
+#   Created:  20250920 160415
+#
+#--
+
+<ADIF_VERS:3>2.2
+<PROGRAMID:14>HamRadioDeluxe
+<PROGRAMVERSION:17>Version 6.8.0.372
+<CREATED_TIMESTAMP:15>20250920 160415
+<EOH>
+
+<a_index:3>3.0 <ant_az:3>0.0 <ant_el:3>0.0 <ant_path:1>S <call:5>K1TST <distance:3>0.0 <dxcc:1>0 <eqsl_qsl_rcvd:1>N 
+<eqsl_qsl_sent:1>N <force_init:1>N <k_index:3>0.0 <lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:2>AM <name:0> 
+<pfx:2>K1 <qsl_rcvd:1>N <qsl_rcvd_via:1>D <qsl_sent:1>N <qsl_sent_via:1>D <qso_complete:1>Y <qso_random:1>N 
+<rst_rcvd:2>59 <rst_sent:2>59 <rx_pwr:3>0.0 <sfi:5>160.0 <station_callsign:4>KI2D <swl:1>N <time_off:6>195756 
+<time_on:6>195756 <qso_date:8>20250920 <EOR>
+
+<address:82>Jˆrg Jungmann, DO6JJ
+Lipperheidstr. 98
+Oberhausen,  46047
+Fed. Republic of Germany <age:2>59 
+<a_index:3>3.0 <ant_az:3>0.0 <ant_el:3>0.0 <ant_path:1>S <call:5>DO6JJ <cont:2>EU <country:24>Fed. Republic of Germany 
+<cqz:2>14 <distance:3>0.0 <dxcc:3>230 <email:14>DO6JJ@YAHOO.DE <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N 
+<force_init:1>N <gridsquare:6>JO31kl <ituz:2>28 <k_index:3>0.0 <lat:11>N051 28.798 <lon:11>E006 52.112 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:2>AM <name:13>Jˆrg Jungmann <pfx:3>DO6 <qsl_rcvd:1>N <qsl_rcvd_via:1>D 
+<qsl_sent:1>N <qsl_sent_via:1>D <qsl_via:50>QSL IS 100% OK VIA BUREAU, DIRECT, QRZ.COM & E-QSL <qso_complete:1>Y 
+<qso_random:1>N <qth:10>Oberhausen <rst_rcvd:2>59 <rst_sent:2>59 <rx_pwr:3>0.0 <sfi:5>160.0 <station_callsign:4>KI2D 
+<swl:1>N <time_off:6>200020 <time_on:6>200020 <hrdcountryno:3>230 <qso_date:8>20250920 <EOR>
+
+<address:60>Enzo Da Ponte, ZP5DA
+Lomas Valentinas 1270
+AsunciÛn
+Paraguay <age:2>52 <a_index:3>3.0 <ant_az:3>0.0 
+<ant_el:3>0.0 <ant_path:1>S <call:5>ZP5DA <cont:2>SA <country:8>Paraguay <cqz:2>11 <distance:3>0.0 <dxcc:3>132 
+<email:17>zp5da@outlook.com <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <gridsquare:6>GG14eq 
+<k_index:3>0.0 <lat:11>S025 17.955 <lon:11>W057 37.823 <lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:2>AM 
+<name:13>Enzo Da Ponte <pfx:3>ZP5 <qsl_rcvd:1>N <qsl_rcvd_via:1>D <qsl_sent:1>N <qsl_sent_via:1>D <qsl_via:55>Manager EB7DX / LoTW. / QRZ.com ( No Qsl by email ) Tnx 
+<qso_complete:1>Y <qso_random:1>N <qth:8>AsunciÛn <rst_rcvd:2>59 <rst_sent:2>59 <rx_pwr:3>0.0 <sfi:5>160.0 
+<station_callsign:4>KI2D <swl:1>N <time_off:6>200043 <time_on:6>200043 <hrdcountryno:3>132 <qso_date:8>20250920 <EOR>
+
+<address:50>Andres Sarria Sanchez, EA7GXD
+M√°laga, 29080
+Spain <a_index:3>3.0 <ant_az:3>0.0 <ant_el:3>0.0 
+<ant_path:1>S <call:6>EA7GXD <cont:2>EU <country:5>Spain <distance:3>0.0 <dxcc:3>281 <eqsl_qsl_rcvd:1>N 
+<eqsl_qsl_sent:1>N <force_init:1>N <gridsquare:6>IN80dj <k_index:3>0.0 <lat:11>N040 23.750 <lon:11>W003 42.500 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:2>AM <name:21>Andres Sarria Sanchez <pfx:3>EA7 <qsl_rcvd:1>N 
+<qsl_rcvd_via:1>D <qsl_sent:1>N <qsl_sent_via:1>D <qso_complete:1>Y <qso_random:1>N <qth:14>M√°laga, 29080 
+<rst_rcvd:2>59 <rst_sent:2>59 <rx_pwr:3>0.0 <sfi:5>160.0 <station_callsign:4>KI2D <swl:1>N <time_off:6>200030 
+<time_on:6>200030 <hrdcountryno:3>281 <qso_date:8>20250920 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K0UTF <comment:7>Test 10 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:86>Korean example: &#xC774;&#xAC83;&#xC740;&#x20;&#xC608;&#xC2DC;&#xC785;&#xB2C8;&#xB2E4; 
+<notes:7>Test 10 <operator:4>KI2D <pfx:2>K0 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N 
+<qth:13>El CaÒ&#243;n <rx_pwr:3>0.0 <sfi:3>0.0 <swl:1>N <time_off:6>100000 <time_on:6>100000 <hrdcountryno:3>291 
+<qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K1ISO <comment:6>Test 1 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju·n MuÒoz <notes:6>Test 1 <operator:4>KI2D 
+<pfx:2>K1 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El CaÒÛn <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>010000 <time_on:6>010000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K2UTF <comment:6>Test 2 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:12>Ju√°n Mu√±oz <notes:6>Test 2 <operator:4>KI2D 
+<pfx:2>K2 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:10>El Ca√±√≥n <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>020000 <time_on:6>020000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K3UTF <comment:6>Test 3 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju√°n Mu√± <notes:6>Test 3 <operator:4>KI2D 
+<pfx:2>K3 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El Ca√±√ <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>030000 <time_on:6>030000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K4UTF <comment:6>Test 4 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:12>Ju√°n Mu√±oz <notes:6>Test 4 <operator:4>KI2D 
+<pfx:2>K4 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:0> <rx_pwr:3>0.0 <sfi:3>0.0 
+<swl:1>N <time_off:6>040000 <time_on:6>040000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K5UTF <comment:6>Test 5 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.059999 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>FT8 <name:10>Ju√°n Mu√± <notes:6>Test 5 <operator:4>KI2D 
+<pfx:2>K5 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:0> <rx_pwr:3>0.0 <sfi:3>0.0 
+<swl:1>N <time_off:6>050000 <time_on:6>050000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K6KOR <comment:6>Test 6 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:0> <notes:6>Test 6 <operator:4>KI2D <pfx:2>K6 
+<qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <rx_pwr:3>0.0 <sfi:3>0.0 <swl:1>N <time_off:6>060000 
+<time_on:6>060000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K7KOR <comment:6>Test 7 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:24>Korean example: Ïù¥Í±¥ Ï <notes:6>Test 7 <operator:4>KI2D 
+<pfx:2>K7 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <rx_pwr:3>0.0 <sfi:3>0.0 <swl:1>N 
+<time_off:6>070000 <time_on:6>070000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K8ISO <comment:6>Test 8 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:17>Ju·n Mu&ntilde;oz <notes:6>Test 8 <operator:4>KI2D 
+<pfx:2>K8 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:13>El CaÒ&#243;n <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>080000 <time_on:6>080000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>K9UTF <comment:6>Test 9 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:17>Ju√°n Mu&ntilde;o <notes:6>Test 9 <operator:4>KI2D 
+<pfx:2>K9 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:13>El Ca√±&#243; <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>090000 <time_on:6>090000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N1ISO <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju·n MuÒoz <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N1 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El CaÒÛn <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>100000 <time_on:6>100000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N1ISO <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju·n MuÒoz <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N1 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El CaÒÛn <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>100000 <time_on:6>100000 <hrdcountryno:3>291 <qso_date:8>20250902 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N2UTF <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:12>Ju√°n Mu√±oz <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N2 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:10>El Ca√±√≥n <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>103000 <time_on:6>103000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N2UTF <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:12>Ju√°n Mu√±oz <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N2 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:10>El Ca√±√≥n <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>103000 <time_on:6>103000 <hrdcountryno:3>291 <qso_date:8>20250902 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N3UTF <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju√°n Mu√± <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N3 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El Ca√±√ <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>113000 <time_on:6>113000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N3UTF <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju√°n Mu√± <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N3 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El Ca√±√ <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>113000 <time_on:6>113000 <hrdcountryno:3>291 <qso_date:8>20250902 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N4MIX <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju√°n Mu√± <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N4 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El CaÒÛn <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>113000 <time_on:6>113000 <hrdcountryno:3>291 <qso_date:8>20250901 <EOR>
+
+<a_index:3>0.0 <ant_az:3>0.0 <ant_el:3>0.0 <band:3>40m <call:5>N4MIX <comment:7>Test 11 <cont:2>NA <country:13>United States 
+<distance:3>0.0 <dxcc:3>291 <eqsl_qsl_rcvd:1>N <eqsl_qsl_sent:1>N <force_init:1>N <freq:8>7.075820 <k_index:3>0.0 
+<lotw_qsl_rcvd:1>N <lotw_qsl_sent:1>N <mode:3>SSB <name:10>Ju√°n Mu√± <notes:7>Test 11 <operator:4>KI2D 
+<pfx:2>N4 <qsl_rcvd:1>N <qsl_sent:1>N <qso_complete:1>Y <qso_random:1>N <qth:8>El CaÒÛn <rx_pwr:3>0.0 
+<sfi:3>0.0 <swl:1>N <time_off:6>113000 <time_on:6>113000 <hrdcountryno:3>291 <qso_date:8>20250902 <EOR>
+
