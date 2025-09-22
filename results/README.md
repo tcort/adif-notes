@@ -267,3 +267,41 @@ This app seems to:
 * Not transcode when importing or exporting
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
+
+
+
+### [N3FJP Amateur Contact Log](https://www.n3fjp.com/aclog.html)
+
+**Version:** 7.0.11
+
+**Tested:** 2025-09-21 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
+* **Test 2:** 🟡 Imported QSO, missing fields. 🟡 Missing fields. 🟡 Data displayed correctly, but field data shifted.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** 🟡 Imported QSO, missing even morefields. 🟡 Missing fields. 🟡 Data displayed correctly, but field data
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** 🟡 Imported QSO, missing fields. 🟡 Missing fields. 🟡 Data displayed correctly, but field data shifted.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 12.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 11.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ✅ Data displayed correctly.
+
+Exports:
+* ADIF Export: transcoded to ISO-8859-1, invalid UTF-8 sequences replaced with `?`, field counts in bytes, CRLF fields, CRLF between records.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use Unicode internally
+* Import ADIF as UTF-8 with character counts
+* Export as ISO-8859-1 with transcoding and byte counts.
+* Handle fields with data beyond length
+* Fail to handle fields with length past data
+* Not transcode HTML entities when importing
+* Correctly accept Unicode input in the UI

@@ -1,0 +1,458 @@
+ADIF Export from N3FJP's Amateur Contact Log 7.0.11
+Written by G. Scott Davis
+www.n3fjp.com
+Log exported on: 9/21/2025 10:12:40 AM
+<LOG_PGM:27>N3FJP's Amateur Contact Log
+<LOG_VER:6>7.0.11
+<PROGRAMID:27>N3FJP's Amateur Contact Log
+<PROGRAMVERSION:6>7.0.11
+<EOH>
+
+<Call:5>K1ISO
+<QSO_Date:8>20250901
+<Time_On:6>010000
+<Band:3>40M
+<Comment:6>Test 1
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Ju?n Mu?oz
+<Pfx:2>K1
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K2UTF
+<Band:3>40M
+<Comment:6>Test 2
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:12>Juán Muñoz
+<
+<Pfx:2>K2
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K3UTF
+<QSO_Date:8>20250901
+<Time_On:6>030000
+<Band:3>40M
+<Comment:6>Test 3
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Juán Muñoz
+<Pfx:2>K3
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<QSO_Date:8>20250901
+<Time_On:6>040000
+<Band:3>40M
+<Comment:6>Test 4
+<Name:12>Juán Muñoz<c
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<eor>
+
+<Call:5>K5UTF
+<QSO_Date:8>20250901
+<Time_On:6>050000
+<Band:3>40M
+<Comment:6>Test 5
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>04
+<Freq:5>7.060
+<ITUz:2>07
+<Mode:3>FT8
+<N3FJP_ModeContest:3>DIG
+<Name:10>Juán Muñoz
+<Pfx:2>K5
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K6KOR
+<Time_On:6>060000
+<Band:3>40M
+<Comment:6>Test 6
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>03
+<Freq:7>7.07582
+<ITUz:2>06
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:36>Korean example: ?? ????.
+<qso_date:8
+<Pfx:2>K6
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K7KOR
+<QSO_Date:8>20250901
+<Time_On:6>070000
+<Band:3>40M
+<Comment:6>Test 7
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>03
+<Freq:7>7.07582
+<ITUz:2>06
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:24>Korean example: ?? ????.
+<Pfx:2>K7
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K8ISO
+<QSO_Date:8>20250901
+<Time_On:6>080000
+<Band:3>40M
+<Comment:6>Test 8
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>04
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:17>Ju?n Mu&ntilde;oz
+<Pfx:2>K8
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K9UTF
+<QSO_Date:8>20250901
+<Time_On:6>090000
+<Band:3>40M
+<Comment:6>Test 9
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>04
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:17>Juán Mu&ntilde;oz
+<Pfx:2>K9
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K0UTF
+<QSO_Date:8>20250901
+<Time_On:6>100000
+<Band:3>40M
+<Comment:7>Test 10
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>04
+<Freq:7>7.07582
+<ITUz:2>07
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:86>Korean example: &#xC774;&#xAC83;&#xC740;&#x20;&#xC608;&#xC2DC;&#xC785;&#xB2C8;&#xB2E4;
+<Pfx:2>K0
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N1ISO
+<QSO_Date:8>20250901
+<Time_On:6>100000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Ju?n Mu?oz
+<Pfx:2>N1
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N2UTF
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:12>Juán Muñoz
+<
+<Pfx:2>N2
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N3UTF
+<QSO_Date:8>20250901
+<Time_On:6>113000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Juán Muñoz
+<Pfx:2>N3
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N4MIX
+<QSO_Date:8>20250901
+<Time_On:6>113000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Juán Muñoz
+<Pfx:2>N4
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N2UTF
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:12>Juán Muñoz
+<
+<Pfx:2>N2
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N1ISO
+<QSO_Date:8>20250902
+<Time_On:6>100000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Ju?n Mu?oz
+<Pfx:2>N1
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N3UTF
+<QSO_Date:8>20250902
+<Time_On:6>113000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Juán Muñoz
+<Pfx:2>N3
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>N4MIX
+<QSO_Date:8>20250902
+<Time_On:6>113000
+<Band:3>40M
+<Comment:7>Test 11
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:10>Juán Muñoz
+<Pfx:2>N4
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<N3FJP_SPCNum:3>USA
+<eor>
+
+<Call:5>K1TST
+<QSO_Date:8>20250921
+<Time_On:6>141000
+<Time_Off:6>141000
+<Band:3>40M
+<N3FJP_COMPUTERNAME:7>Mochima
+<Cont:2>NA
+<Country:3>USA
+<DXCC:3>291
+<CQz:2>05
+<Freq:7>7.07582
+<ITUz:2>08
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:12>Juán Muñoz ?
+<Pfx:2>K1
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:2>59
+<RST_Rcvd:2>59
+<N3FJP_SPCNum:3>USA
+<N3FJP_StationID:7>Mochima
+<eor>
+
+<Call:5>DO6JJ
+<QSO_Date:8>20250921
+<Time_On:6>141100
+<Time_Off:6>141100
+<Band:3>40M
+<Comment:55>Jörg Jungmann - Lipperheidstr. 98 - Oberhausen,   46047
+<N3FJP_COMPUTERNAME:7>Mochima
+<Cont:2>EU
+<Country:27>Federal Republic of Germany
+<DXCC:3>230
+<CQz:2>14
+<Freq:7>7.07582
+<Gridsquare:6>JO31kl
+<ITUz:2>28
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:4>Jörg
+<Pfx:3>DO6
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:2>59
+<RST_Rcvd:2>59
+<N3FJP_SPCNum:27>Federal Republic of Germany
+<N3FJP_StationID:7>Mochima
+<eor>
+
+<Call:6>EA7GXD
+<QSO_Date:8>20250921
+<Time_On:6>141200
+<Time_Off:6>141200
+<Band:3>40M
+<Comment:42>Andres Sarria Sanchez -  - MÃ¡laga, 29080,
+<N3FJP_COMPUTERNAME:7>Mochima
+<Cont:2>EU
+<Country:5>Spain
+<DXCC:3>281
+<CQz:2>14
+<Freq:7>7.07582
+<Gridsquare:6>IN80dj
+<ITUz:2>37
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:6>Andres
+<Pfx:3>EA7
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:2>59
+<RST_Rcvd:2>59
+<N3FJP_SPCNum:5>Spain
+<N3FJP_StationID:7>Mochima
+<eor>
+
+<Call:5>ZP5DA
+<QSO_Date:8>20250921
+<Time_On:6>141200
+<Time_Off:6>141200
+<Band:3>40M
+<Comment:49>Enzo Da Ponte - Lomas Valentinas 1270 - Asunción,
+<N3FJP_COMPUTERNAME:7>Mochima
+<Cont:2>SA
+<Country:8>Paraguay
+<DXCC:3>132
+<CQz:2>11
+<Freq:7>7.07582
+<Gridsquare:6>GG14eq
+<ITUz:2>14
+<Mode:3>SSB
+<N3FJP_ModeContest:2>PH
+<Name:4>Enzo
+<Pfx:3>ZP5
+<QSL_Sent:1>N
+<QSL_Rcvd:1>N
+<RST_Sent:2>59
+<RST_Rcvd:2>59
+<N3FJP_SPCNum:8>Paraguay
+<N3FJP_StationID:7>Mochima
+<eor>
+
