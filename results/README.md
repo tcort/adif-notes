@@ -2,10 +2,43 @@
 
 Based on the files described in [test-files/README.md](test-files/README.md).
 
+
+# Summary (more details below)
+
+| App           | Enc | Imp ISO | Imp UTF  | Exp ISO  | Exp UTF  | Under | Over | Ent | ADX       |
+|---------------|-----|---------|----------|----------|----------|-------|------|-----|-----------|
+| QRZ.com       | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ❌         |
+| DXKeeper      | I   | ✅       | 🟡 bytes | ✅        | 🟡 bytes | ✅     | N/A  | ❌   | ❌         |
+| RumLogNG      | U   | ✅ trans | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ✅ no intl |
+| N1MM+         | U   | ❌       | ✅        | ✅ trans  | ❌        | ✅     | ❌    | ❌   | ❌         |
+| Hamlog.online | U?  | 🟡      | 🟡 bytes | 🟡 sanit | ❌        | ✅     | ❌    | ❌   | ❌         |
+| HR Deluxe     | U?  | ✅       | ❌        | ✅ trans  | ❌        | ✅     | ❌    | ✅   | ✅ no intl |
+| Log4OM        | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ❌         |
+| N3FJP         | U   | ❌       | ✅        | ✅ trans  | ❌        | ✅     | ❌    | ❌   | ❌         |
+
+Columns:
+* `Enc`: Internal encoding
+* `Imp ISO`: Can import ISO-8859-1
+* `Imp UTF`: Can import Unicode
+* `UI`: User Interface encoding
+* `Exp ISO`: Can export ISO-8859-1
+* `Exp UTF`: Can export Unicode
+* `Under`: Can recover from fields with count shorter than available data (can truncate and lose data).
+* `Over`: Can recover from fields with count longer than available data.
+* `Ent`: Decodes entities
+* `ADX`: Supports ADX
+
+Values:
+* `U`: UTF-8, `I`: ISO-8859-1
+* `trans`: uses transcoding, `sanit`: uses sanitization
+* `chars`: character counts, `bytes`: byte counts
+* `intl`: uses _INTL fields, `no intl`: does not use _INTL fields
+
+
+# Detailed Results
 ⁉️ Indicates unexpected findings.
 🥳 Indicates unexpected positive findings.
 😭 Indicate unexpected negative findings.
-
 
 ### [QRZ.com](https://www.qrz.com/)
 
@@ -36,8 +69,8 @@ Notes: Import functionality has no options.
 This app seems to:
 * Use Unicode internally
 * Count ADIF field in characters
-* Handle fields with data beyond length
-* Handle fields with length shorter than data 🥳
+* Handle fields with data beyond length (undercount)
+* Handle fields with length shorter than data (overcount) 🥳
 * Not transcode ISO-8859-1 when importing
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
@@ -75,7 +108,7 @@ This app seems to:
 
 * Use ISO-8859-1 or Win-1252 internally
 * Count ADIF field in bytes
-* Handle fields with data beyond length
+* Handle fields with data beyond length (undercount)
 * Not transcode UTF-8 when importing
 * Not transcode HTML entities when importing
 * Correctly limit UI input to ISO-8859-1
@@ -113,7 +146,7 @@ This app seems to:
 
 * Use Unicode internally
 * Count ADIF field in characters
-* Handle fields with data beyond length
+* Handle fields with data beyond length (undercount)
 * Handle importing files with different encodings, autodetecting encoding and transcoding if necessary
 * Seems to assume that files that have invalid UTF-8 sequences are encoded as ISO-8859-1
 * Not transcode HTML entities when importing
@@ -126,7 +159,7 @@ This app seems to:
 
 **Tested:** 2025-09-20 by KI2D
 
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
 * **Test 2:** ❌ Failed to import QSO.
 * **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
 * **Test 4:** ❌ Failed to import QSO.
@@ -150,8 +183,8 @@ This app seems to:
 
 * Use Unicode internally
 * Count ADIF field in characters on import, transcoding to ISO-8859-1 on export
-* Not handle fields with length shorter than data
-* Always imports as UTF-8 and always exports as transcodedISO-8859-1, with no autodetection.
+* Not handle fields with length longer than data (overcount)
+* Always imports as UTF-8 and always exports as transcoded to ISO-8859-1, with no autodetection.
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
 
@@ -186,6 +219,8 @@ This app seems to:
 
 * Use Unicode internally.
 * Count ADIF fields in bytes, not characters.
+* Handle fields with data beyond length (undercount)
+* Does not handle fields with length shorter than data (overcount)
 * Transcode ISO-8859-1 using some different codepage. Accented `á` shows up as `б` (delta) and `ñ` shows up as `с`.
 * Not transcode HTML entities when importing
 * Remove UTF byte sequences on export, but preserve non-UTF byte sequences
@@ -225,7 +260,7 @@ This app seems to:
 * Interpret all ADIF imports as ISO-8859-1.  Maybe transcode internally?
 * Transcode HTML entities 🥳 to Unicode??? but maybe only on display?
 * Count ADIF field in bytes
-* Handle fields with data beyond length
+* Handle fields with data beyond length (undercount)
 * Not transcode UTF-8 when importing
 * Correctly accept Unicode input in the UI, but dropped on export
 * Correctly accept Unicode data on lookup, maybe transcode internally?
@@ -262,8 +297,8 @@ This app seems to:
 
 * Use Unicode internally
 * Count ADIF field in characters
-* Handle fields with data beyond length
-* Handle fields with length past data
+* Handle fields with data beyond length (undercount)
+* Handle fields with length past data (overcount)
 * Not transcode when importing or exporting
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
@@ -301,7 +336,7 @@ This app seems to:
 * Use Unicode internally
 * Import ADIF as UTF-8 with character counts
 * Export as ISO-8859-1 with transcoding and byte counts.
-* Handle fields with data beyond length
-* Fail to handle fields with length past data
+* Handle fields with data beyond length (undercount)
+* Fail to handle fields with length past data (overcount)
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
