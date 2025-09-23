@@ -15,6 +15,7 @@ Based on the files described in [test-files/README.md](test-files/README.md).
 | HR Deluxe     | U?  | ✅       | ❌        | ✅ trans  | ❌        | ✅     | ❌    | ✅   | ✅ no intl |
 | Log4OM        | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ❌         |
 | N3FJP         | U   | ❌       | ✅        | ✅ trans  | ❌        | ✅     | ❌    | ❌   | ❌         |
+| Logger32      | I   | ✅       | 🟡 bytes | ✅        | 🟡 bytes | ✅     | N/A  | ❌   | ❌         |
 
 Columns:
 * `Enc`: Internal encoding
@@ -100,7 +101,7 @@ This app seems to:
 * **Test 14:** 🟡 DO6JJ name transcoded to "Jorg". 🟡 EA7GXD QTH transcoded to "Malaga". ZP5DA QTH transcoded to "Asuncion"
 
 Exports:
-* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records.
+* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. "Mojibake" preserved on export.
 
 Notes: Import functionality has an option for "non-compliant ADIF", but it does not seem to make any difference in these results.
 
@@ -340,3 +341,38 @@ This app seems to:
 * Fail to handle fields with length past data (overcount)
 * Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
+
+### [Logger32](https://www.logger32.net/)
+
+**Version:** 4.0.307
+
+**Tested:** 2025-09-22 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes.  ❌ Data displayed as mojibake.
+* **Test 5:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 7:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 13:** 🟡 Accented characters displayed correctly, emoji converted to question mark.
+* **Test 14:** Could not figure out how to configure QRZ lookups.
+
+Exports:
+* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. "Mojibake" preserved on export.
+
+Notes: Import functionality has an option for "non-compliant ADIF", but it does not seem to make any difference in these results.
+
+This app seems to:
+
+* Use ISO-8859-1 or Win-1252 internally
+* Count ADIF field in bytes
+* Handle fields with data beyond length (undercount)
+* Not transcode UTF-8 when importing
+* Not transcode HTML entities when importing
+* Correctly limit UI input to ISO-8859-1
