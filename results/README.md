@@ -2,70 +2,74 @@
 
 Based on the files described in [test-files/README.md](test-files/README.md).
 
-
 # Summary (more details below)
 
-| App                | Enc | Imp ISO | Imp UTF  | Exp ISO  | Exp UTF  | Under | Over | Ent | ADX       |
-|--------------------|-----|---------|----------|----------|----------|-------|------|-----|-----------|
-| QRZ.com            | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ❌         |
-| DXKeeper           | I   | ✅       | 🟡 bytes | ✅        | 🟡 bytes | ✅     | N/A  | ❌   | ❌         |
-| RumLogNG           | U   | ✅ trans | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ✅ no intl |
-| N1MM+              | U   | ❌       | ✅        | ✅ trans  | ❌        | ✅     | ❌    | ❌   | ❌         |
-| Hamlog.online      | U?  | 🟡      | 🟡 bytes | 🟡 sanit | ❌        | ✅     | ❌    | ❌   | ❌         |
-| HR Deluxe          | U?  | ✅       | ❌        | ✅ trans  | ❌        | ✅     | ❌    | ✅   | ✅ no intl |
-| Log4OM             | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ✅    | ❌   | ❌         |
-| N3FJP              | U   | ❌       | ✅        | ✅ trans  | ❌        | ✅     | ❌    | ❌   | ❌         |
-| Logger32           | I   | ✅       | 🟡 bytes | ✅        | 🟡 bytes | ✅     | N/A  | ❌   | ❌         |
-| DXLog.net          | U   | ❌       | ✅        | 🟡 sanit | 🟡 sanit | ✅     | ❌    | ❌   | ❌         |
-| World Radio League | U   | ❌       | ✅        | ❌        | ✅ chars  | ✅     | ❌    | ❌   | ❌         |
-| MacLogger DX       | U   | ✅       | ✅        | 🟡 sanit | 🟡 sanit | ✅     | ✅    | ❌   | ✅ no intl |
+| App                | Enc  | ISO | UTFb | UTFc | UI   | Exp  | ADX |
+|--------------------|------|-----|------|------|------|------|-----|
+| AALog              | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| ADIF Master        | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| ClubLog            | ?    | ✅   | ✅    | ✅    | ?    | ?    | ❌   |
+| DXKeeper           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| DXLog.net          | 🇺🇳 | ✅   | ❌    | ✅    | 🇺🇳 | 💾s  | ❌   |
+| Hamlog.online      | 🇺🇳 | ✅�  | ✅    | 🟡�  | 🇺🇳 | 8️⃣s | ❌   |
+| HR Deluxe          | 🇺🇳 | ✅   | ✅�   | 🟡�  | 🇺🇳 | 8️⃣t | 🟡  |
+| Log4OM             | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
+| Logger32           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| MacLogger DX       | 🇺🇳 | ✅�  | ✅    | 🟡   | 🇺🇳 | 💾s  | 🟡  |
+| N1MM+              | 🇺🇳 | ✅�  | ❌    | ✅    | 🇺🇳 | 8️⃣t | ❌   |
+| N3FJP              | 🇺🇳 | ✅�  | 🟡   | ✅    | 🇺🇳 | 8️⃣t | ❌   |
+| POTA               | ?    | ✅   | ✅    | ✅    | ?    | ?    | ❌   |
+| QRZ.com            | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
+| RumLogNG           | 🇺🇳 | ✅   | 🟡   | ✅    | 🇺🇳 | 🇺🇳 | 🟡  |
+| SOTA               | ?    | ✅   | ❌    | ✅    | ?    | ?    | ❌   |
+| World Radio League | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 
 
-# Partial Results (more details below)
-
-| App         | Enc | Imp ISO | Imp UTF  | Exp ISO | Exp UTF  | Under | Over | Ent | ADX |
-|-------------|-----|---------|----------|---------|----------|-------|------|-----|-----|
-| AALog       | I   | ✅       | 🟡 bytes | ✅       | 🟡 bytes | ✅     | N/A  | ❌   | ❌   |
-| ADIF Master | I   | ✅       | 🟡 bytes | ✅       | 🟡 bytes | ✅     | N/A  | ❌   | ❌   |
-| ClubLog     | ?   | N/A     | N/A      | N/A     | N/A      | ✅     | ✅    | N/A | N/A |
-| POTA        | ?   | N/A     | N/A      | N/A     | N/A      | ✅     | ✅    | N/A | N/A |
-| SOTA        | ?   | N/A     | N/A      | N/A     | N/A      | ✅     | ❌    | N/A | N/A |
+Columns:
+* `Enc`: Internal encoding: 8️⃣ ISO-8859-1, 🇺🇳 Unicode
+* `ISO`: Can import ISO-8859-1. � misencoded
+* `UTFb`: Can import Unicode, byte counts. � misencoded, 🟡 with extra bytes, ❌ missing fields or records
+* `UTFc`: Can import Unicode, character counts. � misencoded, 🟡 truncated strings, ❌ missing fields or records
+* `UI`: User Interface encoding
+* `Exp`: Can export 💾: ASCII, 💾s: ASCII sanitized, 8️⃣: Raw ISO-8859-1 (or Unicode with byte counts), 8️⃣s: Sanitized ISO-8859-1, 8️⃣t: Transcoded ISO, 🇺🇳: Unicode, character counts
+* `ADX`: Supports ADX. 🟡 no _INTL fields
 
 # Other Apps
 
-| App                                               | Status                       |
-|---------------------------------------------------|------------------------------|
-| 59+ Log                                           | Discontinued                 |
-| ADIF to Excel or Excel to ADIF                    | Discontinued (2013?)         |
-| Aether Logbook                                    | Requires purchase ($40)      |
-| BBLogger                                          | Could not find download link |
-| Cabrillo Criollo LU4EG                            | Could not find download link |
-| CheckLog                                          | Instructions in Russian      |
-| CQRLOG                                            | Requires Linux               |
-| DX4Win                                            | Coult not get it to import   |
-| DXBase                                            | Website is dead              |
-| DXtreme Station Log                               | Requires purchase ($80)      |
-| Easy Log                                          | Could not find download link |
-| Swisslog                                          | -                            |
-| [HLog](https://www.josefsipek.net/projects/hlog/) | -                            |
-| Winlog32                                          | -                            |
-| Writelog                                          | -                            |
-| Ham-LCT                                           | -                            |
-| Ham Office                                        | -                            |
-| HamLog                                            | -                            |
-| Ham Support                                       | -                            |
-| Journal                                           | -                            |
-| KLog                                              | -                            |
-| LOGic 9                                           | -                            |
-| NewLogOSH                                         | -                            |
-| Pignology                                         | -                            |
-| Shacklog                                          | -                            |
-| TurboLog                                          | -                            |
-| Ucxlog                                            | -                            |
-| VQLog                                             | -                            |
-| XLog                                              | -                            |
-| XMLog                                             | -                            |
-| YPLog                                             | -                            |
+| App                                                | Status                       |
+|----------------------------------------------------|------------------------------|
+| 59+ Log                                            | Discontinued                 |
+| ADIF to Excel or Excel to ADIF                     | Discontinued (2013?)         |
+| Aether Logbook                                     | Requires purchase ($40)      |
+| BBLogger                                           | Could not find download link |
+| Cabrillo Criollo LU4EG                             | Could not find download link |
+| CheckLog                                           | Instructions in Russian      |
+| CQRLOG                                             | Requires Linux               |
+| DX4Win                                             | Coult not get it to import   |
+| DXBase                                             | Website is dead              |
+| DXtreme Station Log                                | Requires purchase ($80)      |
+| Easy Log                                           | Could not find download link |
+| Swisslog                                           | -                            |
+| [HLog](https://www.josefsipek.net/projects/hlog/)  | -                            |
+| [ZZALog](https://sourceforge.net/projects/zzalog/) | -                            |
+| Winlog32                                           | -                            |
+| Writelog                                           | -                            |
+| Ham-LCT                                            | -                            |
+| Ham Office                                         | -                            |
+| HamLog                                             | -                            |
+| Ham Support                                        | -                            |
+| Journal                                            | -                            |
+| KLog                                               | -                            |
+| LOGic 9                                            | -                            |
+| NewLogOSH                                          | -                            |
+| Pignology                                          | -                            |
+| Shacklog                                           | -                            |
+| TurboLog                                           | -                            |
+| Ucxlog                                             | -                            |
+| VQLog                                              | -                            |
+| XLog                                               | -                            |
+| XMLog                                              | -                            |
+| YPLog                                              | -                            |
 
 
 Columns:
@@ -94,41 +98,55 @@ Values:
 
 ---
 
-### [QRZ.com](https://www.qrz.com/)
+---
+
+### [AALog](https://www.dxsoft.com/en/products/aalog/) - Limited Testing
+
+**Version:** 3.9.0 build 1288
+
+**Tested:** 2025-09-23 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+
+This app seems to:
+
+* Use ISO-8859-1 internally
+* Count ADIF field in bytes
+
+---
+
+### [ADIF Master](https://www.dxsoft.com/en/products/adif-master/) - Limited Testing
+
+**Version:** 3.6
+
+**Tested:** 2025-09-23 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+
+This app seems to:
+
+* Use ISO-8859-1 internally
+* Count ADIF field in bytes
+
+---
+
+### [ClubLog](https://clublog.org/) - Limited Testing
 
 **Version:** N/A
 
-**Tested:** 2025-09-19 by KI2D
+**Tested:** 2025-09-23 by KI2D
 
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
-* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
-* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly, entities decoded.
-* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
-* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 12.
-* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 11.
-* **Test 13:** ✅ Data displayed correctly.
-* **Test 14:** ❌ DO6JJ name set to "J rg". ❌ EA7GXD QTH set to "MÃÂ¡laga". ❌ ZP5DA QTH set to "AsunciÃ³n"
+* Imported a QSO with UTF-8 sequences and count in bytes: ✅
+* Imported a QSO with UTF-8 sequences and count in characters: ✅
 
-Exports:
-* ADIF Export: encoded as UTF-8, field counts in characters, LF between fields, LF between records.
+The app does not import any String fields so we cannot describe how it handles them.
 
-Notes: Import functionality has no options.
-
-This app seems to:
-* Use Unicode internally
-* Count ADIF field in characters
-* Handle fields with data beyond length (undercount)
-* Handle fields with length shorter than data (overcount) 🥳
-* Not transcode ISO-8859-1 when importing
-* Not transcode HTML entities when importing
-* Correctly accept Unicode input in the UI
-* Mis-transcode lookup data, apparently treating UTF-8 source data as ISO-8859-1 and then trying to transcode that to UTF-8 😭
+It does, however, seem to be able to handle field counts in bytes and characters.
+Meaning it either uses UTF-8 and can also handle overcount, or more likely it uses ISO-8859-1 and can handle undercount.
 
 ---
 
@@ -170,79 +188,27 @@ This app seems to:
 
 ---
 
-### [RumLogNG](https://www.dl2rum.de/)
+### [DXLog.net](https://dxlog.net/)
 
-**Version:** 5.19.4
+**Version:** 2.6.10
 
-**Tested:** 2025-09-19 by KI2D
+**Tested:** 2025-09-27 by KI2D
 
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 2:** ✅ Imported QSO. ❌ Imported extra bytes. ✅ Data displayed correctly.
-* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 4:** ✅ Imported QSO. ❌ Truncated bytes.  🟡 Data displayed correctly (up to truncation).
-* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 6:** ✅ Imported QSO. ❌ Imported extra bytes. ✅ Data displayed correctly.
-* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
-* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
-* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
-* **Test 11:** 🟡 Mixed results. ISO-8859-1 data imported correctly, but UTF data imported as mojibake.
-* **Test 12:** 🟡 Mixed results. ISO-8859-1 data imported correctly, but UTF data imported as mojibake.
-* **Test 13:** ✅ Data displayed correctly.
-* **Test 14:** ✅ DO6JJ name set to "Jörg". 🟡 EA7GXD QTH bytes preserved as mojibake. ✅ ZP5DA QTH set to "Asunción"
+ADIF import does not include any String fields so we cannot describe how it handles them.
 
-Exports:
-* ADIF Export: encoded as UTF-8, field counts in characters, one space between fields, CRLF between records.
-* ADX Export: encoded as UTF-8, does NOT use _INTL fields.
+Only UI element we could use was "Operator Name" in contest setting. It accepted accented characters and emoji.
+But ADIF export had those replaced with `?`.
 
-Notes: Import functionality has no options relevant to character encoding.
+* **Test 4:** ❌ Failed to import QSO.
+* **Test 5:** ✅ Imported QSO.
 
 This app seems to:
 
 * Use Unicode internally
 * Count ADIF field in characters
-* Handle fields with data beyond length (undercount)
-* Handle importing files with different encodings, autodetecting encoding and transcoding if necessary
-* Seems to assume that files that have invalid UTF-8 sequences are encoded as ISO-8859-1
-* Not transcode HTML entities when importing
-* Correctly interpret lookup data as UTF-8
-
----
-
-### [N1MM+](https://www.n1mm.com/)
-
-**Version:** 1.0.10923
-
-**Tested:** 2025-09-20 by KI2D
-
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
-* **Test 2:** ❌ Failed to import QSO.
-* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 4:** ❌ Failed to import QSO.
-* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 6:** ❌ Failed to import QSO.
-* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly? Missing some korean characters?
-* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
-* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
-* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
-* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
-* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
-* **Test 13:** ✅ Data displayed correctly.
-* **Test 14:** 🔲 Does not support QRZ.com lookups.
-
-Exports:
-* ADIF Export: Unicode data transcoded to ISO-8859-1 ⁉️, field counts in bytes, one space between fields, CRLF between records.
-
-Notes: Import functionality has no options relevant to character encoding.
-
-This app seems to:
-
-* Use Unicode internally
-* Count ADIF field in characters on import, transcoding to ISO-8859-1 on export
-* Not handle fields with length longer than data (overcount)
-* Always imports as UTF-8 and always exports as transcoded to ISO-8859-1, with no autodetection.
-* Not transcode HTML entities when importing
+* Fail to handle fields with length past data (overcount)
 * Correctly accept Unicode input in the UI
+* Sanitize Unicode on export to 7-bit ASCII with '?'
 
 ---
 
@@ -363,6 +329,83 @@ This app seems to:
 
 ---
 
+### [Logger32](https://www.logger32.net/)
+
+**Version:** 4.0.307
+
+**Tested:** 2025-09-22 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes.  ❌ Data displayed as mojibake.
+* **Test 5:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 7:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 13:** 🟡 Accented characters displayed correctly, emoji converted to question mark.
+* **Test 14:** Could not figure out how to configure QRZ lookups.
+
+Exports:
+* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. "Mojibake" preserved on export.
+
+Notes: Import functionality has an option for "non-compliant ADIF", but it does not seem to make any difference in these results.
+
+This app seems to:
+
+* Use ISO-8859-1 or Win-1252 internally
+* Count ADIF field in bytes
+* Handle fields with data beyond length (undercount)
+* Not transcode UTF-8 when importing
+* Not transcode HTML entities when importing
+* Correctly limit UI input to ISO-8859-1
+
+---
+
+### [MacLogger DX](https://www.dogparksoftware.com/MacLoggerDX.html)
+
+**Version:** 6.57
+
+**Tested:** 2025-09-27 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page, and entities not decoded.
+* **Test 11:** 🟡 Processed as with Test 1, autodetected ISO-8859-1.
+* **Test 12:** 🟡 Processed as with Test 1, autodetected ISO-8859-1.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ✅ Data displayed correctly.
+
+Exports:
+* ADIF Export: encoded as 7-bit ASCII, with sanitization and simplification, field counts in bytes, one space between fields, two CRLF between records.
+* ADX Export: encoded as UTF-8, but data originally in ISO-8859-1 shows up as unexpected mojibake. No _INTL fields.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use Unicode internally
+* Count ADIF field in characters
+* Handle fields with data beyond length (undercount)
+* Handle fields with length past data (overcount), dropping fields.
+* Transcode non-UTF but not sure of which codepage.
+* Sanitize on export to ADI.
+* Not transcode HTML entities when importing
+* Correctly accept Unicode input in the UI
+
+---
+
 ### [N3FJP Amateur Contact Log](https://www.n3fjp.com/aclog.html)
 
 **Version:** 7.0.11
@@ -401,113 +444,40 @@ This app seems to:
 
 ---
 
-### [Logger32](https://www.logger32.net/)
+### [N1MM+](https://www.n1mm.com/)
 
-**Version:** 4.0.307
+**Version:** 1.0.10923
 
-**Tested:** 2025-09-22 by KI2D
+**Tested:** 2025-09-20 by KI2D
 
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
-* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
-* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes.  ❌ Data displayed as mojibake.
-* **Test 5:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
-* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
-* **Test 7:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
-* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
-* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake, entities not decoded.
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
+* **Test 2:** ❌ Failed to import QSO.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ❌ Failed to import QSO.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ❌ Failed to import QSO.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly? Missing some korean characters?
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
 * **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
 * **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
 * **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
-* **Test 13:** 🟡 Accented characters displayed correctly, emoji converted to question mark.
-* **Test 14:** Could not figure out how to configure QRZ lookups.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** 🔲 Does not support QRZ.com lookups.
 
 Exports:
-* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. "Mojibake" preserved on export.
+* ADIF Export: Unicode data transcoded to ISO-8859-1 ⁉️, field counts in bytes, one space between fields, CRLF between records.
 
-Notes: Import functionality has an option for "non-compliant ADIF", but it does not seem to make any difference in these results.
-
-This app seems to:
-
-* Use ISO-8859-1 or Win-1252 internally
-* Count ADIF field in bytes
-* Handle fields with data beyond length (undercount)
-* Not transcode UTF-8 when importing
-* Not transcode HTML entities when importing
-* Correctly limit UI input to ISO-8859-1
-
----
-
-### [AALog](https://www.dxsoft.com/en/products/aalog/) - Limited Testing
-
-**Version:** 3.9.0 build 1288
-
-**Tested:** 2025-09-23 by KI2D
-
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
-* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
-
-This app seems to:
-
-* Use ISO-8859-1 internally
-* Count ADIF field in bytes
-
----
-### [ADIF Master](https://www.dxsoft.com/en/products/adif-master/) - Limited Testing
-
-**Version:** 3.6
-
-**Tested:** 2025-09-23 by KI2D
-
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
-* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
-
-This app seems to:
-
-* Use ISO-8859-1 internally
-* Count ADIF field in bytes
-
----
-
-### [ClubLog](https://clublog.org/) - Limited Testing
-
-**Version:** N/A
-
-**Tested:** 2025-09-23 by KI2D
-
-* Imported a QSO with UTF-8 sequences and count in bytes: ✅
-* Imported a QSO with UTF-8 sequences and count in characters: ✅
-
-The app does not import any String fields so we cannot describe how it handles them.
-
-It does, however, seem to be able to handle field counts in bytes and characters.
-Meaning it either uses UTF-8 and can also handle overcount, or more likely it uses ISO-8859-1 and can handle undercount.
-
----
-
-### [DXLog.net](https://dxlog.net/)
-
-**Version:** 2.6.10
-
-**Tested:** 2025-09-27 by KI2D
-
-ADIF import does not include any String fields so we cannot describe how it handles them.
-
-Only UI element we could use was "Operator Name" in contest setting. It accepted accented characters and emoji.
-But ADIF export had those replaced with `?`.
-
-* **Test 4:** ❌ Failed to import QSO.
-* **Test 5:** ✅ Imported QSO.
+Notes: Import functionality has no options relevant to character encoding.
 
 This app seems to:
 
 * Use Unicode internally
-* Count ADIF field in characters
-* Fail to handle fields with length past data (overcount)
+* Count ADIF field in characters on import, transcoding to ISO-8859-1 on export
+* Not handle fields with length longer than data (overcount)
+* Always imports as UTF-8 and always exports as transcoded to ISO-8859-1, with no autodetection.
+* Not transcode HTML entities when importing
 * Correctly accept Unicode input in the UI
-* Sanitize Unicode on export to 7-bit ASCII with '?'
 
 ---
 
@@ -523,6 +493,84 @@ ADIF import does not include any String fields so we cannot describe how it hand
 * Imported a QSO with UTF-8 sequences and count in characters: ✅
 
 ---
+
+### [QRZ.com](https://www.qrz.com/)
+
+**Version:** N/A
+
+**Tested:** 2025-09-19 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with � and entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly, entities decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 12.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3. Same as Test 11.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ❌ DO6JJ name set to "J rg". ❌ EA7GXD QTH set to "MÃÂ¡laga". ❌ ZP5DA QTH set to "AsunciÃ³n"
+
+Exports:
+* ADIF Export: encoded as UTF-8, field counts in characters, LF between fields, LF between records.
+
+Notes: Import functionality has no options.
+
+This app seems to:
+* Use Unicode internally
+* Count ADIF field in characters
+* Handle fields with data beyond length (undercount)
+* Handle fields with length shorter than data (overcount) 🥳
+* Not transcode ISO-8859-1 when importing
+* Not transcode HTML entities when importing
+* Correctly accept Unicode input in the UI
+* Mis-transcode lookup data, apparently treating UTF-8 source data as ISO-8859-1 and then trying to transcode that to UTF-8 😭
+
+---
+
+### [RumLogNG](https://www.dl2rum.de/)
+
+**Version:** 5.19.4
+
+**Tested:** 2025-09-19 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ❌ Imported extra bytes. ✅ Data displayed correctly.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ✅ Imported QSO. ❌ Truncated bytes.  🟡 Data displayed correctly (up to truncation).
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ✅ Imported QSO. ❌ Imported extra bytes. ✅ Data displayed correctly.
+* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
+* **Test 11:** 🟡 Mixed results. ISO-8859-1 data imported correctly, but UTF data imported as mojibake.
+* **Test 12:** 🟡 Mixed results. ISO-8859-1 data imported correctly, but UTF data imported as mojibake.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ✅ DO6JJ name set to "Jörg". 🟡 EA7GXD QTH bytes preserved as mojibake. ✅ ZP5DA QTH set to "Asunción"
+
+Exports:
+* ADIF Export: encoded as UTF-8, field counts in characters, one space between fields, CRLF between records.
+* ADX Export: encoded as UTF-8, does NOT use _INTL fields.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use Unicode internally
+* Count ADIF field in characters
+* Handle fields with data beyond length (undercount)
+* Handle importing files with different encodings, autodetecting encoding and transcoding if necessary
+* Seems to assume that files that have invalid UTF-8 sequences are encoded as ISO-8859-1
+* Not transcode HTML entities when importing
+* Correctly interpret lookup data as UTF-8
+
+---
+
 ### [SOTA.app](https://sotadata.org.uk/)
 
 **Version:** N/A
@@ -573,42 +621,4 @@ This app seems to:
 * Correctly accept Unicode input in the UI
 
 ---
-
-### [MacLogger DX](https://www.dogparksoftware.com/MacLoggerDX.html)
-
-**Version:** 6.57
-
-**Tested:** 2025-09-27 by KI2D
-
-* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page.
-* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 7:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
-* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page.
-* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Data displayed correctly, entities not decoded.
-* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Transcoded to unknown code page, and entities not decoded.
-* **Test 11:** 🟡 Processed as with Test 1, autodetected ISO-8859-1.
-* **Test 12:** 🟡 Processed as with Test 1, autodetected ISO-8859-1.
-* **Test 13:** ✅ Data displayed correctly.
-* **Test 14:** ✅ Data displayed correctly.
-
-Exports:
-* ADIF Export: encoded as 7-bit ASCII, with sanitization and simplification, field counts in bytes, one space between fields, two CRLF between records.
-* ADX Export: encoded as UTF-8, but data originally in ISO-8859-1 shows up as unexpected mojibake. No _INTL fields.
-
-Notes: Import functionality has no options relevant to character encoding.
-
-This app seems to:
-
-* Use Unicode internally
-* Count ADIF field in characters
-* Handle fields with data beyond length (undercount)
-* Handle fields with length past data (overcount), dropping fields.
-* Transcode non-UTF but not sure of which codepage.
-* Sanitize on export to ADI.
-* Not transcode HTML entities when importing
-* Correctly accept Unicode input in the UI
 
