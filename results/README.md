@@ -4,34 +4,34 @@ Based on the files described in [test-files/README.md](test-files/README.md).
 
 # Summary (more details below)
 
-| App                | Enc | ISO | UTFb | UTFc | UI | Exp | ADX |
-|--------------------|-----|-----|------|------|----|-----|-----|
-| AALog              | I   | ✅   | ✅�   | 🟡�  | I  | Ir  | ❌   |
-| ADIF Master        | I   | ✅   | ✅�   | 🟡�  | I  | Ir  | ❌   |
-| ClubLog            | ?   | ✅   | ✅    | ✅    | ?  | ?   | ❌   |
-| DXKeeper           | I   | ✅   | ✅�   | 🟡�  | I  | Ir  | ❌   |
-| DXLog.net          | U   | ✅   | ❌    | ✅    | U  | As  | ❌   |
-| Hamlog.online      | U   | ✅�  | ✅    | 🟡�  | U  | Is  | ❌   |
-| HR Deluxe          | U   | ✅   | ✅�   | 🟡�  | U  | It  | 🟡  |
-| Log4OM             | U   | ✅�  | ✅    | ✅    | U  | Uc  | ❌   |
-| Logger32           | I   | ✅   | ✅�   | 🟡�  | I  | Ir  | ❌   |
-| MacLogger DX       | U   | ✅�  | ✅    | 🟡   | U  | As  | 🟡  |
-| N1MM+              | U   | ✅�  | ❌    | ✅    | U  | It  | ❌   |
-| N3FJP              | U   | ✅�  | 🟡   | ✅    | U  | It  | ❌   |
-| POTA               | ?   | ✅   | ✅    | ✅    | ?  | ?   | ❌   |
-| QRZ.com            | U   | ✅�  | ✅    | ✅    | U  | Uc  | ❌   |
-| RumLogNG           | U   | ✅   | 🟡   | ✅    | U  | Uc  | 🟡  |
-| SOTA               | ?   | ✅   | ❌    | ✅    | ?  | ?   | ❌   |
-| World Radio League | U   | ✅�  | ✅    | ✅    | U  | Uc  | ❌   |
+| App                | Enc  | ISO | UTFb | UTFc | UI   | Exp  | ADX |
+|--------------------|------|-----|------|------|------|------|-----|
+| AALog              | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| ADIF Master        | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| ClubLog            | ?    | ✅   | ✅    | ✅    | ?    | ?    | ❌   |
+| DXKeeper           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| DXLog.net          | 🇺🇳 | ✅   | ❌    | ✅    | 🇺🇳 | 💾s  | ❌   |
+| Hamlog.online      | 🇺🇳 | ✅�  | ✅    | 🟡�  | 🇺🇳 | 8️⃣s | ❌   |
+| HR Deluxe          | 🇺🇳 | ✅   | ✅�   | 🟡�  | 🇺🇳 | 8️⃣t | 🟡  |
+| Log4OM             | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
+| Logger32           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
+| MacLogger DX       | 🇺🇳 | ✅�  | ✅    | 🟡   | 🇺🇳 | 💾s  | 🟡  |
+| N1MM+              | 🇺🇳 | ✅�  | ❌    | ✅    | 🇺🇳 | 8️⃣t | ❌   |
+| N3FJP              | 🇺🇳 | ✅�  | 🟡   | ✅    | 🇺🇳 | 8️⃣t | ❌   |
+| POTA               | ?    | ✅   | ✅    | ✅    | ?    | ?    | ❌   |
+| QRZ.com            | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
+| RumLogNG           | 🇺🇳 | ✅   | 🟡   | ✅    | 🇺🇳 | 🇺🇳 | 🟡  |
+| SOTA               | ?    | ✅   | ❌    | ✅    | ?    | ?    | ❌   |
+| World Radio League | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 
 
 Columns:
-* `Enc`: Internal encoding
+* `Enc`: Internal encoding: 8️⃣ ISO-8859-1, 🇺🇳 Unicode
 * `ISO`: Can import ISO-8859-1. � misencoded
 * `UTFb`: Can import Unicode, byte counts. � misencoded, 🟡 with extra bytes, ❌ missing fields or records
 * `UTFc`: Can import Unicode, character counts. � misencoded, 🟡 truncated strings, ❌ missing fields or records
 * `UI`: User Interface encoding
-* `Exp`: Can export A: ASCII, As: ASCII sanitized, Ir: Raw ISO-8859-1, Is: Sanitized ISO-8859-1, It: Transcoded ISO, Ub: Unicode, byte counts, Uc: Unicode, character counts
+* `Exp`: Can export 💾: ASCII, 💾s: ASCII sanitized, 8️⃣: Raw ISO-8859-1 (or Unicode with byte counts), 8️⃣s: Sanitized ISO-8859-1, 8️⃣t: Transcoded ISO, 🇺🇳: Unicode, character counts
 * `ADX`: Supports ADX. 🟡 no _INTL fields
 
 # Other Apps
