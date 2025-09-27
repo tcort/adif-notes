@@ -11,8 +11,10 @@ Based on the files described in [test-files/README.md](test-files/README.md).
 | ClubLog            | ?    | ✅   | ✅    | ✅    | ?    | ?    | ❌   |
 | DXKeeper           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
 | DXLog.net          | 🇺🇳 | ✅   | ❌    | ✅    | 🇺🇳 | 💾s  | ❌   |
+| Fast Log Entry     | ?    | ?   | ?    | ?    | ?    | 💾s  | ❌   |
 | Hamlog.online      | 🇺🇳 | ✅�  | ✅    | 🟡�  | 🇺🇳 | 8️⃣s | ❌   |
-| HR Deluxe          | 🇺🇳 | ✅   | ✅�   | 🟡�  | 🇺🇳 | 8️⃣t | 🟡  |
+| Ham Radio Deluxe   | 🇺🇳 | ✅   | ✅�   | 🟡�  | 🇺🇳 | 8️⃣t | 🟡  |
+| HAMRS Pro          | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 | Log4OM             | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 | Logger32           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
 | MacLogger DX       | 🇺🇳 | ✅�  | ✅    | 🟡   | 🇺🇳 | 💾s  | 🟡  |
@@ -22,6 +24,8 @@ Based on the files described in [test-files/README.md](test-files/README.md).
 | QRZ.com            | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 | RumLogNG           | 🇺🇳 | ✅   | 🟡   | ✅    | 🇺🇳 | 🇺🇳 | 🟡  |
 | SOTA               | ?    | ✅   | ❌    | ✅    | ?    | ?    | ❌   |
+| Swisslog           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 💾s  | ❌   |
+| WinLog32           | 8️⃣  | ✅   | ✅�   | 🟡�  | 8️⃣  | 8️⃣  | ❌   |
 | World Radio League | 🇺🇳 | ✅�  | ✅    | ✅    | 🇺🇳 | 🇺🇳 | ❌   |
 
 
@@ -49,12 +53,10 @@ Columns:
 | DXBase                                             | Website is dead              |
 | DXtreme Station Log                                | Requires purchase ($80)      |
 | Easy Log                                           | Could not find download link |
-| Swisslog                                           | -                            |
+| Ham-LCT                                            | Discontinued                 |
 | [HLog](https://www.josefsipek.net/projects/hlog/)  | -                            |
 | [ZZALog](https://sourceforge.net/projects/zzalog/) | -                            |
-| Winlog32                                           | -                            |
 | Writelog                                           | -                            |
-| Ham-LCT                                            | -                            |
 | Ham Office                                         | -                            |
 | HamLog                                             | -                            |
 | Ham Support                                        | -                            |
@@ -212,6 +214,18 @@ This app seems to:
 
 ---
 
+### [Fast Log Entry](https://df3cb.com/fle/download/)
+
+**Version:** 3.4
+
+**Tested:** 2025-09-27 by KI2D
+
+No ADIF import.
+
+Exports ADIF as sanitized 7-bit ASCII.
+
+---
+
 ### [Hamlog.online](https://hamlog.online/)
 
 **Version:** N/A
@@ -287,6 +301,40 @@ This app seems to:
 * Not transcode UTF-8 when importing
 * Correctly accept Unicode input in the UI, but dropped on export
 * Correctly accept Unicode data on lookup, maybe transcode internally?
+
+---
+
+### [HAMRS Pro](https://hamrs.app/)
+
+**Version:** 2.44.0
+
+**Tested:** 2025-09-27 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed with �.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 3:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 5:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* Skipped other tests since their results are predictable by tests 1-4.
+* **Test 13:** ✅ Data displayed correctly.
+* **Test 14:** ✅ Data displayed correctly.
+
+Imports ADIF as separate logbooks, so no we could not capture a useful screenshot or export showing all records.
+
+Exports:
+* ADIF Export: encoded as UTF-8, field counts in characters, CRLF between fields, two CRLF between records.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use Unicode internally
+* Count ADIF field in characters
+* Handle fields with data beyond length (undercount)
+* Handle fields with length past data (overcount)
+* Not transcode when importing or exporting
+* Correctly accept Unicode input in the UI
 
 ---
 
@@ -581,6 +629,70 @@ ADIF import does not include any String fields so we cannot describe how it hand
 
 * Imported a QSO with UTF-8 sequences and count in bytes: ❌
 * Imported a QSO with UTF-8 sequences and count in characters: ✅
+
+---
+
+### [Swisslog](https://www.swisslogforwindows.com/)
+
+**Version:** 5.113
+
+**Tested:** 2025-09-27 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes.  ❌ Data displayed as mojibake.
+* Skipped other tests since their results are predictable by tests 1-4.
+* **Test 13:** 🟡 Accented characters displayed correctly, emoji converted to question mark.
+* **Test 14:** ✅ Transcoded to ISO-8859-1.
+
+Exports:
+* ADIF Export: sanitized as 7-bit ASCII, with field counts in bytes, two spaces between fields, CRLF after certain fields, two CRLF between records.
+
+Notes: Import functionality has no options relevant to character encoding.
+
+This app seems to:
+
+* Use ISO-8859-1 internally
+* Count ADIF field in bytes
+* Handle fields with data beyond length (undercount)
+* Not transcode UTF-8 when importing
+* Correctly limit UI input to ISO-8859-1
+
+
+---
+
+### [WinLog32](http://www.winlog32.co.uk/)
+
+**Version:** 7.3.46
+
+**Tested:** 2025-09-27 by KI2D
+
+* **Test 1:** ✅ Imported QSO. ✅ Imported all bytes. ✅ Data displayed correctly.
+* **Test 2:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 3:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 4:** ✅ Imported QSO. ✅ Imported all bytes.  ❌ Data displayed as mojibake.
+* **Test 5:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 6:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake.
+* **Test 7:** ✅ Imported QSO. ❌ Truncated bytes.  ❌ Data displayed as mojibake.
+* **Test 8:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Accented char displayed correctly, but entities not decoded.
+* **Test 9:** ✅ Imported QSO. ✅ Imported all bytes. ❌ Data displayed as mojibake, entities not decoded.
+* **Test 10:** ✅ Imported QSO. ✅ Imported all bytes. 🟡 Entities not decoded.
+* **Test 11:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 12:** 🟡 Mixed results consistent with Test 1, 2 & 3.
+* **Test 13:** 🟡 Accented characters displayed correctly, emoji converted to question mark.
+* **Test 14:** Could not figure out how to configure QRZ lookups.
+
+Exports:
+* ADIF Export: encoded as ISO-8859-1, with field counts in bytes, one space between fields, CRLF between records. "Mojibake" preserved on export.
+
+This app seems to:
+
+* Use ISO-8859-1 or Win-1252 internally
+* Count ADIF field in bytes
+* Handle fields with data beyond length (undercount)
+* Correctly limit UI input to ISO-8859-1
+
 
 ---
 
