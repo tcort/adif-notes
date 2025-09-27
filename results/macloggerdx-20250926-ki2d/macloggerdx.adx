@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ADX>
+    <HEADER>
+        <ADIF_VER>3.0.3</ADIF_VER>
+        <PROGRAMID>MacLoggerDX</PROGRAMID>
+        <PROGRAMVERSION>6.44</PROGRAMVERSION>
+    </HEADER>
+    <RECORDS>
+        <RECORD>
+            <CALL>ZP5DA</CALL>
+            <QSO_DATE>20250927</QSO_DATE>
+            <TIME_ON>022137</TIME_ON>
+            <QSO_DATE_OFF>20250927</QSO_DATE_OFF>
+            <TIME_OFF>022141</TIME_OFF>
+            <NAME>Enzo</NAME>
+            <FREQ_RX>7200</FREQ_RX>
+            <FREQ>7200</FREQ>
+            <BAND>???</BAND>
+            <BAND_RX>???</BAND_RX>
+            <MODE>???</MODE>
+            <ANT_AZ>240.8</ANT_AZ>
+            <QSL_VIA>LoTW</QSL_VIA>
+            <DXCC>132</DXCC>
+            <COUNTRY>Paraguay</COUNTRY>
+            <CONT>SA</CONT>
+            <GRIDSQUARE>GG14eq</GRIDSQUARE>
+            <LAT>S025 17.955</LAT>
+            <LON>S057 37.823</LON>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+        </RECORD>
+        <RECORD>
+            <CALL>EA7GXD</CALL>
+            <QSO_DATE>20250927</QSO_DATE>
+            <TIME_ON>022132</TIME_ON>
+            <QSO_DATE_OFF>20250927</QSO_DATE_OFF>
+            <TIME_OFF>022133</TIME_OFF>
+            <NAME>Andres</NAME>
+            <FREQ_RX>7200</FREQ_RX>
+            <FREQ>7200</FREQ>
+            <BAND>???</BAND>
+            <BAND_RX>???</BAND_RX>
+            <MODE>???</MODE>
+            <ANT_AZ>355.7</ANT_AZ>
+            <QSL_VIA>eQSL_AG</QSL_VIA>
+            <DXCC>281</DXCC>
+            <COUNTRY>Spain</COUNTRY>
+            <CONT>EU</CONT>
+            <GRIDSQUARE>IN80dj</GRIDSQUARE>
+            <LAT>N040 23.750</LAT>
+            <LON>S003 42.500</LON>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+        </RECORD>
+        <RECORD>
+            <CALL>DO6JJ</CALL>
+            <QSO_DATE>20250927</QSO_DATE>
+            <TIME_ON>022123</TIME_ON>
+            <QSO_DATE_OFF>20250927</QSO_DATE_OFF>
+            <TIME_OFF>022125</TIME_OFF>
+            <NAME>Jörg</NAME>
+            <FREQ_RX>7200</FREQ_RX>
+            <FREQ>7200</FREQ>
+            <BAND>???</BAND>
+            <BAND_RX>???</BAND_RX>
+            <MODE>???</MODE>
+            <ANT_AZ>5.4</ANT_AZ>
+            <DXCC>230</DXCC>
+            <COUNTRY>Federal Republic of Germany</COUNTRY>
+            <CONT>EU</CONT>
+            <GRIDSQUARE>JO31kl</GRIDSQUARE>
+            <LAT>N051 28.798</LAT>
+            <LON>N006 52.112</LON>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+        </RECORD>
+        <RECORD>
+            <CALL>K1TST</CALL>
+            <QSO_DATE>20250927</QSO_DATE>
+            <TIME_ON>022101</TIME_ON>
+            <QSO_DATE_OFF>20250927</QSO_DATE_OFF>
+            <TIME_OFF>022111</TIME_OFF>
+            <NAME>Juán Muñoz ✅</NAME>
+            <FREQ_RX>7200</FREQ_RX>
+            <FREQ>7200</FREQ>
+            <BAND>???</BAND>
+            <BAND_RX>???</BAND_RX>
+            <MODE>???</MODE>
+            <ANT_AZ>314</ANT_AZ>
+            <QSL_VIA>eQSL_AG</QSL_VIA>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <GRIDSQUARE>FN42kj</GRIDSQUARE>
+            <LAT>N042 23.750</LAT>
+            <LON>S071 07.500</LON>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+        </RECORD>
+        <RECORD>
+            <CALL>N3UTF</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <NAME>Ju√°n Mu√±</NAME>
+            <QTH>El Ca√±√</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N4MIX</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <NAME>Ju√°n Mu√±</NAME>
+            <QTH>El CaÒÛn</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N2UTF</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>103000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>103000</TIME_OFF>
+            <NAME>Ju√°n Mu√±oz</NAME>
+            <QTH>El Ca√±√≥n</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N1ISO</CALL>
+            <QSO_DATE>20250902</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250902</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <NAME>Ju·n MuÒoz</NAME>
+            <QTH>El CaÒÛn</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N3UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <NAME>Ju√°n Mu√±</NAME>
+            <QTH>El Ca√±√</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N4MIX</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>113000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>113000</TIME_OFF>
+            <NAME>Ju√°n Mu√±</NAME>
+            <QTH>El CaÒÛn</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N2UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>103000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>103000</TIME_OFF>
+            <NAME>Ju√°n Mu√±oz</NAME>
+            <QTH>El Ca√±√≥n</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K0UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <NAME>Korean example: &amp;#xC774;&amp;#xAC83;&amp;#xC740;&amp;#x20;&amp;#xC608;&amp;#xC2DC;&amp;#xC785;&amp;#xB2C8;&amp;#xB2E4;</NAME>
+            <QTH>El CaÒ&amp;#243;n</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 10, Test 10</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>N1ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>100000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>100000</TIME_OFF>
+            <NAME>Ju·n MuÒoz</NAME>
+            <QTH>El CaÒÛn</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 11, Test 11</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K9UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>090000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>090000</TIME_OFF>
+            <NAME>Juán Mu&amp;ntilde;oz</NAME>
+            <QTH>El Cañ&amp;#243;n</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 9, Test 9</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K8ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>080000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>080000</TIME_OFF>
+            <NAME>Ju·n Mu&amp;ntilde;oz</NAME>
+            <QTH>El CaÒ&amp;#243;n</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 8, Test 8</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K7KOR</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>070000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>070000</TIME_OFF>
+            <NAME>Korean example: 이건 예시예요.</NAME>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 7, Test 7</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K6KOR</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>060000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>060000</TIME_OFF>
+            <NAME>Korean example: 이건 예시예요.
+</NAME>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 6, Test 6</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K5UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>050000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>050000</TIME_OFF>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>1️⃣2️⃣3️⃣4️⃣5️⃣</QTH>
+            <FREQ_RX>7.06</FREQ_RX>
+            <FREQ>7.06</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>FT8</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 5, Test 5</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K4UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>040000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>040000</TIME_OFF>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>1️⃣2️⃣3️⃣4️⃣5️⃣</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 4, Test 4</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K3UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>030000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>030000</TIME_OFF>
+            <NAME>Juán Muñoz</NAME>
+            <QTH>El Cañón</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 3, Test 3</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K2UTF</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>020000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>020000</TIME_OFF>
+            <NAME>Juán Muñoz
+</NAME>
+            <QTH>El Cañón
+</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 2, Test 2</COMMENT>
+        </RECORD>
+        <RECORD>
+            <CALL>K1ISO</CALL>
+            <QSO_DATE>20250901</QSO_DATE>
+            <TIME_ON>010000</TIME_ON>
+            <QSO_DATE_OFF>20250901</QSO_DATE_OFF>
+            <TIME_OFF>010000</TIME_OFF>
+            <NAME>Ju·n MuÒoz</NAME>
+            <QTH>El CaÒÛn</QTH>
+            <FREQ_RX>7.07582</FREQ_RX>
+            <FREQ>7.07582</FREQ>
+            <BAND>40m</BAND>
+            <BAND_RX>40m</BAND_RX>
+            <MODE>SSB</MODE>
+            <DXCC>291</DXCC>
+            <COUNTRY>United States</COUNTRY>
+            <CONT>NA</CONT>
+            <OPERATOR>KI2D</OPERATOR>
+            <MY_RIG>1 Flex 6600</MY_RIG>
+            <COMMENT>Test 1, Test 1</COMMENT>
+        </RECORD>
+    </RECORDS>
+</ADX>

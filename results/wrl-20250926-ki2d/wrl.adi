@@ -1,0 +1,57 @@
+# ++++++++++++++++++++++++++++++++++++
+# World Radio League
+# https://www.worldradioleague.com
+# Saturday, September 27, 2025
+# ++++++++++++++++++++++++++++++++++++
+
+<adif_ver:5>3.1.4 <created_timestamp:15>20250927 021206 <programid:3>wrl <eoh>
+
+<app_wrl_id:20>SsMgOloMGGZ8EmjMukU4 <band:3>40m <call:5>N2UTF <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>1911.95 <dxcc:3>291 <freq:7>7.07582 <lat:9>37.036381 <lon:10>-95.618673 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qth:10>El Cañón
+< <station_callsign:4>KI2D <eor>
+
+<app_wrl_id:20>iq1Wk8VMjk2J1DlTfBbr <band:3>40m <call:5>N2UTF <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>1911.95 <dxcc:3>291 <freq:7>7.07582 <lat:9>37.036381 <lon:10>-95.618673 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qth:10>El Cañón
+< <station_callsign:4>KI2D <eor>
+
+<app_wrl_id:20>rS3X3gs7qU5wLd9BnDxK <band:3>40m <call:5>K2UTF <comment:6>Test 2 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:7>7.07582 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qth:10>El Cañón
+< <station_callsign:4>KI2D <eor>
+
+<app_wrl_id:20>6vpFQrejjU5OaAgDw7qu <band:3>40m <call:5>K6KOR <comment:6>Test 6 <country:24>UNITED STATES OF AMERICA <distance:7>3873.09 <dxcc:3>291 <freq:7>7.07582 <lat:9>34.148032 <lon:11>-117.533212 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:14>CHARLES BECKER <state:2>CA <station_callsign:4>KI2D <time_on:6>060000 <eor>
+
+<app_wrl_id:20>AWiumaN1P2kdZDCGGkm6 <band:3>40m <call:5>K6KOR <comment:6>Test 6 <country:24>UNITED STATES OF AMERICA <distance:7>3873.09 <dxcc:3>291 <freq:7>7.07582 <lat:9>34.148032 <lon:11>-117.533212 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:14>CHARLES BECKER <state:2>CA <station_callsign:4>KI2D <time_on:6>060000 <eor>
+
+<app_wrl_id:20>6UMI5soakiRdx9L48RYt <band:3>40m <call:5>K1ISO <comment:6>Test 1 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:7>7.07582 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250901 <qth:8>El Ca��n <station_callsign:4>KI2D <time_on:6>010000 <eor>
+
+<app_wrl_id:20>bnJYnxNdNci19rxztul2 <band:3>40m <call:5>K3UTF <comment:6>Test 3 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:7>7.07582 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250901 <qth:8>El Cañón <station_callsign:4>KI2D <time_on:6>030000 <eor>
+
+<app_wrl_id:20>syb5tpR24zLIW309XmG2 <band:3>40m <comment:6>Test 4 <my_lat:9>40.749971 <my_lon:10>-73.985866 <name:12>Juán Muñoz<c <qso_date:8>20250901 <qth:35>1️⃣2️⃣3️⃣4️⃣5️⃣<freq:7>7.07582<mode <station_callsign:4>KI2D <time_on:6>040000 <eor>
+
+<app_wrl_id:20>McDE2L3nvnxI2qKp83Y6 <band:3>40m <call:5>K5UTF <comment:6>Test 5 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:5>7.060 <mode:3>FT8 <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250901 <qth:15>1️⃣2️⃣3️⃣4️⃣5️⃣ <station_callsign:4>KI2D <time_on:6>050000 <eor>
+
+<app_wrl_id:20>eHq8ryDNDtlg9Ls9b4il <band:3>40m <call:5>K7KOR <comment:6>Test 7 <country:24>UNITED STATES OF AMERICA <distance:7>3743.22 <dxcc:3>291 <freq:7>7.07582 <lat:9>46.652870 <lon:11>-120.536494 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:9>Don Skone <qso_date:8>20250901 <state:2>WA <station_callsign:4>KI2D <time_on:6>070000 <eor>
+
+<app_wrl_id:20>YnFX9IlFocXz0eumXYgk <band:3>40m <call:5>K8ISO <comment:6>Test 8 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:7>7.07582 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250901 <qth:13>El Ca�&#243;n <station_callsign:4>KI2D <time_on:6>080000 <eor>
+
+<app_wrl_id:20>r5CXsS72176vQxEetDqY <band:3>40m <call:5>K9UTF <comment:6>Test 9 <country:24>UNITED STATES OF AMERICA <distance:7>1875.23 <dxcc:3>291 <freq:7>7.07582 <lat:9>35.349200 <lon:10>-94.336069 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:11>Lewis Kraus <qso_date:8>20250901 <qth:13>El Cañ&#243;n <state:2>AR <station_callsign:4>KI2D <time_on:6>090000 <eor>
+
+<app_wrl_id:20>A6hoOCpbx9sHoIF0B9gN <band:3>40m <call:5>N1ISO <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:6>490.29 <dxcc:3>291 <freq:7>7.07582 <lat:9>37.405726 <lon:10>-77.689487 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:11>GEORGE HECK <qso_date:8>20250901 <qth:8>El Ca��n <state:2>VA <station_callsign:4>KI2D <time_on:6>100000 <eor>
+
+<app_wrl_id:20>NWW8yVzGJNnLLZ7ONrJB <band:3>40m <call:5>K0UTF <comment:7>Test 10 <country:24>UNITED STATES OF AMERICA <dxcc:3>291 <freq:7>7.07582 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250901 <qth:13>El Ca�&#243;n <station_callsign:4>KI2D <time_on:6>100000 <eor>
+
+<app_wrl_id:20>TmawXzIzVEwQs0WhIyC0 <band:3>40m <call:5>N3UTF <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>3402.38 <dxcc:3>291 <freq:7>7.07582 <lat:9>32.116031 <lon:11>-110.793654 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:11>MARK BOWLES <qso_date:8>20250901 <qth:8>El Cañón <state:2>AZ <station_callsign:4>KI2D <time_on:6>113000 <eor>
+
+<app_wrl_id:20>xMmcMqV8bduXcNKBvaLK <band:3>40m <call:5>N4MIX <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>1602.65 <dxcc:3>291 <freq:7>7.07582 <lat:9>27.757204 <lon:10>-81.574724 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:14>DONALD EIZENGA <qso_date:8>20250901 <qth:8>El Ca��n <state:2>FL <station_callsign:4>KI2D <time_on:6>113000 <eor>
+
+<app_wrl_id:20>b3PJEmHj7ypWOZI3kF8t <band:3>40m <call:5>N1ISO <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:6>490.29 <dxcc:3>291 <freq:7>7.07582 <lat:9>37.405726 <lon:10>-77.689487 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:11>GEORGE HECK <qso_date:8>20250902 <qth:8>El Ca��n <state:2>VA <station_callsign:4>KI2D <time_on:6>100000 <eor>
+
+<app_wrl_id:20>1fw5ACbVaQAuJuaKA7qw <band:3>40m <call:5>N3UTF <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>3402.38 <dxcc:3>291 <freq:7>7.07582 <lat:9>32.116031 <lon:11>-110.793654 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:11>MARK BOWLES <qso_date:8>20250902 <qth:8>El Cañón <state:2>AZ <station_callsign:4>KI2D <time_on:6>113000 <eor>
+
+<app_wrl_id:20>dKSQTODkTQIyZ6pUtS0o <band:3>40m <call:5>N4MIX <comment:7>Test 11 <country:24>UNITED STATES OF AMERICA <distance:7>1602.65 <dxcc:3>291 <freq:7>7.07582 <lat:9>27.757204 <lon:10>-81.574724 <mode:3>SSB <my_country:13>United States <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:14>DONALD EIZENGA <qso_date:8>20250902 <qth:8>El Ca��n <state:2>FL <station_callsign:4>KI2D <time_on:6>113000 <eor>
+
+<app_wrl_id:20>puKaR2fkmjpmzVywxhHQ <call:5>K1TST <comment:12>Juán Muñoz ✅ <country:24>UNITED STATES OF AMERICA <distance:6>302.71 <dxcc:3>291 <gridsquare:6>FN42hp <lat:9>42.647700 <lon:10>-71.371200 <my_country:13>United States <my_gridsquare:6>FN30ar <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:12>TIMOTHY TAIT <qso_date:8>20250927 <qth:13>N. CHELMSFORD <rst_rcvd:2>59 <rst_sent:2>59 <state:2>MA <station_callsign:4>KI2D <time_on:6>020856 <eor>
+
+<app_wrl_id:20>qvCa8nJO99sTragynnVI <call:5>DO6JJ <country:20>FED. REP. OF GERMANY <distance:7>6021.52 <dxcc:3>230 <gridsquare:6>JO31kl <lat:9>51.481100 <lon:8>6.878820 <my_country:13>United States <my_gridsquare:6>FN30ar <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <name:14> Jörg Jungmann <qso_date:8>20250927 <qth:10>Oberhausen <rst_rcvd:2>59 <rst_sent:2>59 <state:3>NRW <station_callsign:4>KI2D <time_on:6>020918 <eor>
+
+<app_wrl_id:20>fqVJ2GUzq04goRH9W4rK <call:6>EA7GXD <country:5>SPAIN <distance:7>5839.11 <dxcc:3>281 <gridsquare:6>IM77pg <lat:9>37.272700 <lon:9>-4.704510 <my_country:13>United States <my_gridsquare:6>FN30ar <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250927 <rst_rcvd:2>59 <rst_sent:2>59 <state:2>AN <station_callsign:4>KI2D <time_on:6>020924 <eor>
+
+<app_wrl_id:20>RVaesVM1xu4CpAzzLPMh <call:5>ZP5DA <country:8>PARAGUAY <distance:7>7531.30 <dxcc:3>132 <gridsquare:6>GG14dr <lat:10>-25.268900 <lon:10>-57.704500 <my_country:13>United States <my_gridsquare:6>FN30ar <my_lat:9>40.749971 <my_lon:10>-73.985866 <my_name:17>Sebastian Delmont <my_state:2>NY <qso_date:8>20250927 <rst_rcvd:2>59 <rst_sent:2>59 <state:27>Presidente Hayes Department <station_callsign:4>KI2D <time_on:6>020929 <eor>
+
